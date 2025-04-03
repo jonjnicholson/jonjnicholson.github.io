@@ -1,0 +1,24 @@
+<rss version="2.0">
+  <channel>
+    <title>cloudflare on Jonathan Nicholson</title>
+    <link>https://jnicholson.micro.blog/categories/cloudflare/</link>
+    <description></description>
+    
+    <language>en</language>
+    
+    <lastBuildDate>Fri, 27 May 2022 22:31:19 -0400</lastBuildDate>
+    
+    <item>
+      <title>Setting Up Hugo on Cloudflare</title>
+      <link>https://jnicholson.micro.blog/2022/05/27/setting-up-hugo-on-cloudflare.html</link>
+      <pubDate>Fri, 27 May 2022 22:31:19 -0400</pubDate>
+      
+      <guid>http://jnicholson.micro.blog/2022/05/28/setting-up-hugo-on-cloudflare.html</guid>
+      <description>&lt;p&gt;I wanted to start off by sharing how I set up this my original homepage. I was impressed by how easy it was to do, especially since I&amp;rsquo;m new to both Hugo and Cloudflare Pages.&lt;/p&gt;
+&lt;p&gt;I followed the &lt;a href=&#34;https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/&#34;&gt;excellent documentation&lt;/a&gt; that Cloudflare provides. If you&amp;rsquo;re not married to the idea of using Hugo, they also provide great documentation on &lt;a href=&#34;https://developers.cloudflare.com/pages/framework-guides/&#34;&gt;other frameworks&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;One thing I missed the first time I pushed updates to my repo was &lt;a href=&#34;https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/#using-a-specific-hugo-version&#34;&gt;setting the version of Hugo&lt;/a&gt;. The version that Hugo provides is older and didn&amp;rsquo;t work with my chosen theme.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

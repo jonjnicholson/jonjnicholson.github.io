@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Archive">
+    <meta property="og:title" content="Archive">
+  
+  
+    <meta name="twitter:description" content="">
+    <meta name="og:description" content="">
+    <meta name="description" content=""><title>Archive | Jonathan Nicholson</title>
+  <link rel="canonical" href="https://jnicholson.micro.blog/archive/">
+  
+    <link rel="stylesheet" href="/css/main.css?1743691520">
+  
+  <link rel="stylesheet" href="/css/all.min.css?1743691520">
+  <link rel="alternate" href="https://jnicholson.micro.blog/feed.xml" type="application/rss+xml" title="Jonathan Nicholson">
+  <link rel="alternate" href="https://jnicholson.micro.blog/feed.json" type="application/json" title="Jonathan Nicholson">
+
+
+
+
+<link rel="me" href="https://micro.blog/jnicholson">
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="https://micro.blog/jnicholson/favicon.png" type="image/x-icon">
+<link rel="EditURI" type="application/rsd+xml" href="https://jnicholson.micro.blog/rsd.xml">
+<link rel="authorization_endpoint" href="https://micro.blog/indieauth/auth">
+<link rel="token_endpoint" href="https://micro.blog/indieauth/token">
+<link rel="subscribe" href="https://micro.blog/users/follow">
+<link rel="webmention" href="https://micro.blog/webmention">
+<link rel="micropub" href="https://micro.blog/micropub">
+<link rel="microsub" href="https://micro.blog/microsub">
+
+<link rel="stylesheet" href="/custom.css?1743691520">
+
+
+  <link rel="stylesheet" href="/css/collections.css?1743700752">
+
+
+
+  <script>
+	document.addEventListener('DOMContentLoaded', () => {
+		const images = document.querySelectorAll('.microblog_collection img');
+		let currentImageIndex = 0;
+		let isMultiLightbox = false;
+
+		function createLightbox() {
+			
+			const lightbox = document.createElement('div');
+			lightbox.id = 'microblog_lightbox';
+			
+			const closeBtn = document.createElement('button');
+			closeBtn.id = 'microblog_lightbox_close_btn';
+			closeBtn.innerHTML = '&times;';
+			
+			const prevBtn = document.createElement('button');
+			prevBtn.id = 'microblog_lightbox_prev_btn';
+			prevBtn.className = 'microblog_lightbox_nav';
+			prevBtn.innerHTML = '&larr;';
+			
+			const nextBtn = document.createElement('button');
+			nextBtn.id = 'microblog_lightbox_next_btn';
+			nextBtn.className = 'microblog_lightbox_nav';
+			nextBtn.innerHTML = '&rarr;';
+			
+			const lightboxImg = document.createElement('img');
+			lightboxImg.id = 'microblog_lightbox_img';
+			lightboxImg.alt = 'Lightbox Image';
+			
+			lightbox.appendChild(closeBtn);
+			lightbox.appendChild(prevBtn);
+			lightbox.appendChild(lightboxImg);
+			lightbox.appendChild(nextBtn);
+			
+			document.body.appendChild(lightbox);
+		
+			return { lightbox, closeBtn, prevBtn, nextBtn, lightboxImg };
+		}
+		
+		const { 
+			lightbox, 
+			closeBtn, 
+			prevBtn, 
+			nextBtn, 
+			lightboxImg 
+		} = createLightbox();
+
+		function openMultiLightbox(index) {
+			isMultiLightbox = true;
+			currentImageIndex = index;
+			lightboxImg.src = images[index].getAttribute('data-microblog-lightbox');
+			lightbox.style.display = 'flex';
+
+			
+			prevBtn.style.display = 'block';
+			nextBtn.style.display = 'block';
+		}
+		
+		function openSingleLightbox(url) {
+			isMultiLightbox = false;
+			lightboxImg.src = url;
+			lightbox.style.display = 'flex';
+
+			
+			prevBtn.style.display = 'none';
+			nextBtn.style.display = 'none';
+		}
+
+		function closeLightbox() {
+			lightbox.style.display = 'none';
+		}
+
+		function navigatePrevious() {
+			currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+			lightboxImg.src = images[currentImageIndex].getAttribute('data-microblog-lightbox');
+		}
+
+		function navigateNext() {
+			currentImageIndex = (currentImageIndex + 1) % images.length;
+			lightboxImg.src = images[currentImageIndex].getAttribute('data-microblog-lightbox');
+		}
+
+		
+		images.forEach((img, index) => {
+			img.addEventListener('click', () => openMultiLightbox(index));
+		});
+
+		closeBtn.addEventListener('click', closeLightbox);
+		prevBtn.addEventListener('click', navigatePrevious);
+		nextBtn.addEventListener('click', navigateNext);
+
+		
+		document.addEventListener('keydown', (e) => {
+			if (lightbox.style.display === 'flex') {
+				switch (e.key) {
+					case 'ArrowLeft':
+						if (isMultiLightbox) {
+							navigatePrevious();
+						}
+						break;
+					case 'ArrowRight':
+						if (isMultiLightbox) {
+							navigateNext();
+						}
+						break;
+					case 'Escape':
+						closeLightbox();
+						break;
+				}
+			}
+		});
+
+		
+		lightbox.addEventListener('click', (e) => {
+			if (e.target === lightbox) {
+				closeLightbox();
+			}
+		});
+		
+		
+		const single_images = document.querySelectorAll(".e-content img, .p-summary img");
+		single_images.forEach(function(image) {
+			
+			if (image.closest(".microblog_collection")) {
+				return;
+			}
+		
+			
+			if (!image.closest("a")) {
+				
+				const hasClickHandler = image.onclick || image.hasAttribute("onclick");
+				const hasTouchHandler = image.ontouchstart || image.hasAttribute("ontouchstart");
+		
+				
+				if (!hasClickHandler && !hasTouchHandler) {
+					image.addEventListener("click", function() {
+						openSingleLightbox(image.src);
+					});
+				}
+			}
+		});
+	});
+</script>
+
+
+
+</head>
+
+
+<body>
+  <header class="site-header">
+	
+	<a href="/"><img src="https://www.gravatar.com/avatar/1204ff76ac656f596db0024bbfbc7e96?s=96&amp;d=https%3A%2F%2Fmicro.blog%2Fimages%2Fblank_avatar.png" alt="Jonathan Nicholson Profile Photo" class="profile_photo u-photo" width="80" height="80"></a>
+	
+	
+	<h1><a class="site-title p-name u-url" href="/">Jonathan Nicholson</a></h1>
+	
+	
+	
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			<li><a class="page-link About" href="/about/">About</a></li>
+			
+			
+			
+			<li><a class="page-link Archive" href="/archive/">Archive</a></li>
+			
+			
+			
+			<li><a class="page-link Photos" href="/photos/">Photos</a></li>
+			
+			
+			
+			<li><a class="page-link Collections" href="/collections/">Collections</a></li>
+			
+			
+			
+			<li><a class="page-link Reading" href="/reading/">Reading</a></li>
+			
+			
+			
+		</ul>
+	</nav>
+	
+</header>
+
+
+  <div class="page-content">
+    <div class="wrapper">
+      
+<div class="archive">
+	<h2 class="p-name post-title">Archive</h2>
+	
+	
+	
+	<div class="archive-categories">
+		<h3>Categories</h3>
+		<div class="category-list">
+			
+			<a href="https://jnicholson.micro.blog/categories/tailscale/"><button>tailscale</button></a>
+			
+			<a href="https://jnicholson.micro.blog/categories/vpn/"><button>vpn</button></a>
+			
+			<a href="https://jnicholson.micro.blog/categories/cloudflare/"><button>cloudflare</button></a>
+			
+			<a href="https://jnicholson.micro.blog/categories/hugo/"><button>hugo</button></a>
+			
+			<a href="https://jnicholson.micro.blog/categories/static-site-generators/"><button>static site generators</button></a>
+			
+		</div>
+	</div>
+	
+	<div class="full-archives h-feed">
+		<h3>Full Post List</h3>
+		
+		
+
+		<p class="h-entry">
+			<a href="https://jnicholson.micro.blog/2025/04/03/michigan-theater-enjoyed-seeing-explosions.html" class="u-url"><span class="dt-published" datetime="2025-04-03T09:51:39-0400">Apr 3, 2025</span></a>:
+			
+			<span class="p-summary">Michigan Theater. 📍
+Enjoyed seeing Explosions in the Sky last night in Ann Arbor!
+</span>
+		</p>
+
+		
+
+		<p class="h-entry">
+			<a href="https://jnicholson.micro.blog/2025/04/01/brown-pelican-looking-for-some.html" class="u-url"><span class="dt-published" datetime="2025-04-01T19:04:18-0400">Apr 1, 2025</span></a>:
+			
+			<span class="p-summary">Brown Pelican looking for some food
+</span>
+		</p>
+
+		
+
+		<p class="h-entry">
+			<a href="https://jnicholson.micro.blog/2023/06/18/how-i-use-tailscale.html" class="u-url"><span class="dt-published" datetime="2023-06-18T17:44:03-0400">Jun 18, 2023</span></a>:
+			
+			<span class="p-name"><b>How I Use Tailscale</b></span>
+			
+			<span class="p-summary">What is it?  Tailscale is a VPN service that makes the devices and applications you own accessible anywhere in the world, securely and effortlessly. …</span>
+		</p>
+
+		
+
+		<p class="h-entry">
+			<a href="https://jnicholson.micro.blog/2022/05/27/setting-up-hugo-on-cloudflare.html" class="u-url"><span class="dt-published" datetime="2022-05-27T22:31:19-0400">May 27, 2022</span></a>:
+			
+			<span class="p-name"><b>Setting Up Hugo on Cloudflare</b></span>
+			
+			<span class="p-summary">I wanted to start off by sharing how I set up this my original homepage. I was impressed by how easy it was to do, especially since I’m new to both …</span>
+		</p>
+
+		
+
+		<p class="h-entry">
+			<a href="https://jnicholson.micro.blog/2022/05/16/hello-world.html" class="u-url"><span class="dt-published" datetime="2022-05-16T22:11:59-0400">May 16, 2022</span></a>:
+			
+			<span class="p-name"><b>Hello World</b></span>
+			
+			<span class="p-summary">Console.Write(&#34;hello world&#34;); </span>
+		</p>
+
+		
+	</div>
+
+</div>
+
+    </div>
+    
+  </div>
+  <footer class="site-footer">
+
+  <div class="wrapper">
+    
+    <p class="custom_footer"></p>
+    
+    <p class="attribution custom_footer">Hosted by <a href="https://micro.blog">Micro.blog</a>. Powered by <a href="https://sumo.micro.blog">Sumo Theme</a>. Designed with <span class="red">♥</span> by <a href="https://www.mattlangford.com">Matt Langford</a>.</p>
+  </div>
+
+</footer>
+
+
+  
+
+  
+  <style>
+    quoteback-component {
+      display: block;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  </style>
+</body>
+</html>

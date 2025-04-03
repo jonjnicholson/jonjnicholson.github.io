@@ -1,0 +1,20 @@
+{
+	"version": "https://jsonfeed.org/version/1",
+	"title": "Jonathan Nicholson",
+	"icon": "https://www.gravatar.com/avatar/1204ff76ac656f596db0024bbfbc7e96?s=96&d=https%3A%2F%2Fmicro.blog%2Fimages%2Fblank_avatar.png",
+	"home_page_url": "https://jnicholson.micro.blog/",
+	"feed_url": "https://jnicholson.micro.blog/podcast.json",
+	"_podcast": {
+		"about": "https://jsonfeed.org/podcasting",
+		"image": "https://micro.blog/jnicholson/podcast.png",
+		"explicit": false,
+		"categories": [
+			{
+				"category": "Society \u0026 Culture",
+				"subcategory": "Personal Journals"
+			}
+		]
+	},
+	"items": [
+	]
+}

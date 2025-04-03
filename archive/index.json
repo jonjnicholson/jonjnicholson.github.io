@@ -1,0 +1,44 @@
+{
+	"version": "https://jsonfeed.org/version/1",
+	"title": "Jonathan Nicholson",
+	"icon": "https://www.gravatar.com/avatar/1204ff76ac656f596db0024bbfbc7e96?s=96&d=https%3A%2F%2Fmicro.blog%2Fimages%2Fblank_avatar.png",
+	"home_page_url": "https://jnicholson.micro.blog/",
+	"feed_url": "https://jnicholson.micro.blog/photos/index.json",
+	"items": [
+			{
+				"id": "https://jnicholson.micro.blog/2025/04/03/michigan-theater-enjoyed-seeing-explosions.html",
+				"title": "",
+				"content_text": "Michigan Theater. 📍\nEnjoyed seeing Explosions in the Sky last night in Ann Arbor!",
+				"date_published": "2025-04-03T09:51:39-04:00",
+				"url": "https://jnicholson.micro.blog/2025/04/03/michigan-theater-enjoyed-seeing-explosions.html"
+			},
+			{
+				"id": "https://jnicholson.micro.blog/2025/04/01/brown-pelican-looking-for-some.html",
+				"title": "",
+				"content_text": "A Brown Pelican is searching for food.",
+				"date_published": "2025-04-01T19:04:18-04:00",
+				"url": "https://jnicholson.micro.blog/2025/04/01/brown-pelican-looking-for-some.html"
+			},
+			{
+				"id": "https://jnicholson.micro.blog/2023/06/18/how-i-use-tailscale.html",
+				"title": "How I Use Tailscale",
+				"content_text": "What is it?  Tailscale is a VPN service that makes the devices and applications you own accessible …",
+				"date_published": "2023-06-18T17:44:03-04:00",
+				"url": "https://jnicholson.micro.blog/2023/06/18/how-i-use-tailscale.html"
+			},
+			{
+				"id": "https://jnicholson.micro.blog/2022/05/27/setting-up-hugo-on-cloudflare.html",
+				"title": "Setting Up Hugo on Cloudflare",
+				"content_text": "I wanted to start off by sharing how I set up this my original homepage. I was impressed by how easy …",
+				"date_published": "2022-05-27T22:31:19-04:00",
+				"url": "https://jnicholson.micro.blog/2022/05/27/setting-up-hugo-on-cloudflare.html"
+			},
+			{
+				"id": "https://jnicholson.micro.blog/2022/05/16/hello-world.html",
+				"title": "Hello World",
+				"content_text": "Console.Write(\u0026#34;hello world\u0026#34;); ",
+				"date_published": "2022-05-16T22:11:59-04:00",
+				"url": "https://jnicholson.micro.blog/2022/05/16/hello-world.html"
+			}
+	]
+}

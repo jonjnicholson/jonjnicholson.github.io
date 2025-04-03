@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+	<channel>
+		<atom:link href="https://jnicholson.micro.blog/podcast.xml" rel="self" type="application/rss+xml" />
+		<title>Jonathan Nicholson</title>
+		<link>https://jnicholson.micro.blog/</link>
+		<description></description>
+		<copyright>Copyright 2025 Jonathan Nicholson</copyright>
+		<itunes:image href="https://micro.blog/jnicholson/podcast.png" />
+		<itunes:category text="Society &amp; Culture">
+			<itunes:category text="Personal Journals"></itunes:category>
+		</itunes:category>
+		<itunes:author>Jonathan Nicholson</itunes:author>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:owner>
+			<itunes:name>Jonathan Nicholson</itunes:name>
+			<itunes:email></itunes:email>
+		</itunes:owner>
+		
+			<language>en</language>
+		
+		<lastBuildDate>Thu, 03 Apr 2025 09:51:39 -0400</lastBuildDate>
+	</channel>
+</rss>

@@ -1,0 +1,52 @@
+<rss version="2.0">
+  <channel>
+    <title>Categories on Jonathan Nicholson</title>
+    <link>https://jnicholson.micro.blog/categories/</link>
+    <description></description>
+    
+    <language>en</language>
+    
+    <lastBuildDate>Sun, 18 Jun 2023 17:44:03 -0400</lastBuildDate>
+    
+    <item>
+      <title>tailscale</title>
+      <link>https://jnicholson.micro.blog/categories/tailscale/</link>
+      <pubDate>Sun, 18 Jun 2023 17:44:03 -0400</pubDate>
+      <guid>https://jnicholson.micro.blog/categories/tailscale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vpn</title>
+      <link>https://jnicholson.micro.blog/categories/vpn/</link>
+      <pubDate>Sun, 18 Jun 2023 17:44:03 -0400</pubDate>
+      <guid>https://jnicholson.micro.blog/categories/vpn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloudflare</title>
+      <link>https://jnicholson.micro.blog/categories/cloudflare/</link>
+      <pubDate>Fri, 27 May 2022 22:31:19 -0400</pubDate>
+      <guid>https://jnicholson.micro.blog/categories/cloudflare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://jnicholson.micro.blog/categories/hugo/</link>
+      <pubDate>Fri, 27 May 2022 22:31:19 -0400</pubDate>
+      <guid>https://jnicholson.micro.blog/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>static site generators</title>
+      <link>https://jnicholson.micro.blog/categories/static-site-generators/</link>
+      <pubDate>Fri, 27 May 2022 22:31:19 -0400</pubDate>
+      <guid>https://jnicholson.micro.blog/categories/static-site-generators/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+{
+	"version": "https://jsonfeed.org/version/1",
+	"title": "Jonathan Nicholson",
+	"icon": "https://www.gravatar.com/avatar/1204ff76ac656f596db0024bbfbc7e96?s=96&d=https%3A%2F%2Fmicro.blog%2Fimages%2Fblank_avatar.png",
+	"home_page_url": "https://jnicholson.micro.blog/",
+	"feed_url": "https://jnicholson.micro.blog/photos/index.json",
+	"items": [
+			{
+				"id": "https://jnicholson.micro.blog/2025/04/03/michigan-theater-enjoyed-seeing-explosions.html",
+				"title": "",
+				"content_html": "<p>Michigan Theater. <a href=\"http://maps.apple.com/?ll=42.279462,-83.741749\">📍</a></p>\n<p>Enjoyed seeing Explosions in the Sky last night in Ann Arbor!</p>\n<p><img src=\"https://jnicholson.micro.blog/uploads/2025/image-20250403-095127-13139f9f.jpg\" alt=\"Concert with fog and red lights\"></p>\n<p><img src=\"https://jnicholson.micro.blog/uploads/2025/image-20250403-095130-6c3b5b87.jpg\" alt=\"Concert with fog and  lights piercing the fog \"></p>\n<p><img src=\"https://jnicholson.micro.blog/uploads/2025/image-20250403-095134-c05bd2db.jpg\" alt=\"Concert with purple lights and fog\"></p>\n",
+				"date_published": "2025-04-03T09:51:39-04:00",
+				"url": "https://jnicholson.micro.blog/2025/04/03/michigan-theater-enjoyed-seeing-explosions.html",
+				
+					"image": "https://jnicholson.micro.blog/uploads/2025/image-20250403-095127-13139f9f.jpg",
+					"_microblog": {
+						"thumbnail_url": "https://micro.blog/photos/400/https://jnicholson.micro.blog/uploads/2025/image-20250403-095127-13139f9f.jpg"
+					}
+				
+			},
+			{
+				"id": "https://jnicholson.micro.blog/2025/04/01/brown-pelican-looking-for-some.html",
+				"title": "",
+				"content_html": "<p>Brown Pelican looking for some food</p>\n<img src=\"uploads/2025/dsc06273.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"date_published": "2025-04-01T19:04:18-04:00",
+				"url": "https://jnicholson.micro.blog/2025/04/01/brown-pelican-looking-for-some.html",
+				
+					"image": "https://jnicholson.micro.blog/uploads/2025/dsc06273.jpg",
+					"_microblog": {
+						"thumbnail_url": "https://micro.blog/photos/400/https://jnicholson.micro.blog/uploads/2025/dsc06273.jpg"
+					}
+				
+			}
+	]
+}
