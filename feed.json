@@ -1,51 +1,91 @@
 {
 	"version": "https://jsonfeed.org/version/1",
 	"title": "Jonathan Nicholson",
-	"icon": "https://www.gravatar.com/avatar/1204ff76ac656f596db0024bbfbc7e96?s=96&d=https%3A%2F%2Fmicro.blog%2Fimages%2Fblank_avatar.png",
-	"home_page_url": "https://jnicholson.micro.blog/",
-	"feed_url": "https://jnicholson.micro.blog/feed.json",
+	"icon": "https://micro.blog/jnicholson/avatar.jpg",
+	"home_page_url": "https://jnicholson.blog/",
+	"feed_url": "https://jnicholson.blog/feed.json",
 	"items": [
+		
+			{
+				"id": "http://jnicholson.micro.blog/2025/04/07/questioning-why-i-ever-came.html",
+				
+				"content_html": "<p>Questioning why I ever came home from vacation as it’s now snowing here in Michigan…</p>\n",
+				"content_text": "Questioning why I ever came home from vacation as it’s now snowing here in Michigan…\n",
+				"date_published": "2025-04-07T13:13:31-04:00",
+				"url": "https://jnicholson.blog/2025/04/07/questioning-why-i-ever-came.html",
+				"tags": ["Microposts"]
+			},
+			{
+				"id": "http://jnicholson.micro.blog/2025/04/05/we-have-a-bird-deer.html",
+				
+				"content_html": "<p>We have a bird, deer, and raccoon feeder (not necessarily in that order)</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "We have a bird, deer, and raccoon feeder (not necessarily in that order) \n\n<img src=\"uploads/2025/img-5515.jpeg\" alt=\"a white tail deer eating out of a bird feeder\" title=\"IMG_5515.jpeg\" border=\"0\" width=\"450\" height=\"600\" />\n\n",
+				"date_published": "2025-04-05T17:20:00-04:00",
+				"url": "https://jnicholson.blog/2025/04/05/we-have-a-bird-deer.html",
+				"tags": ["Microposts"]
+			},
 			{
 				"id": "http://jnicholson.micro.blog/2025/04/03/michigan-theater-enjoyed-seeing-explosions.html",
 				
 				"content_html": "<p>Michigan Theater. <a href=\"http://maps.apple.com/?ll=42.279462,-83.741749\">📍</a></p>\n<p>Enjoyed seeing Explosions in the Sky last night in Ann Arbor!</p>\n<p><img src=\"https://jnicholson.micro.blog/uploads/2025/image-20250403-095127-13139f9f.jpg\" alt=\"Concert with fog and red lights\"></p>\n<p><img src=\"https://jnicholson.micro.blog/uploads/2025/image-20250403-095130-6c3b5b87.jpg\" alt=\"Concert with fog and  lights piercing the fog \"></p>\n<p><img src=\"https://jnicholson.micro.blog/uploads/2025/image-20250403-095134-c05bd2db.jpg\" alt=\"Concert with purple lights and fog\"></p>\n",
-				
+				"content_text": "Michigan Theater. [📍](http://maps.apple.com/?ll=42.279462,-83.741749)\n\nEnjoyed seeing Explosions in the Sky last night in Ann Arbor!\n\n![Concert with fog and red lights](https://jnicholson.micro.blog/uploads/2025/image-20250403-095127-13139f9f.jpg)\n\n![Concert with fog and  lights piercing the fog ](https://jnicholson.micro.blog/uploads/2025/image-20250403-095130-6c3b5b87.jpg)\n\n![Concert with purple lights and fog](https://jnicholson.micro.blog/uploads/2025/image-20250403-095134-c05bd2db.jpg)\n",
 				"date_published": "2025-04-03T09:51:39-04:00",
-				"url": "https://jnicholson.micro.blog/2025/04/03/michigan-theater-enjoyed-seeing-explosions.html"
+				"url": "https://jnicholson.blog/2025/04/03/michigan-theater-enjoyed-seeing-explosions.html",
+				"tags": ["Microposts"]
 			},
 			{
 				"id": "http://jnicholson.micro.blog/2025/04/01/brown-pelican-looking-for-some.html",
 				
-				"content_html": "<p>Brown Pelican looking for some food</p>\n<img src=\"uploads/2025/dsc06273.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
-				"summary": "A Brown Pelican is searching for food.",
+				"content_html": "<p>Brown Pelican looking for some food</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Brown Pelican looking for some food\n\n<img src=\"uploads/2025/dsc06273.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
 				"date_published": "2025-04-01T19:04:18-04:00",
-				"url": "https://jnicholson.micro.blog/2025/04/01/brown-pelican-looking-for-some.html"
+				"url": "https://jnicholson.blog/2025/04/01/brown-pelican-looking-for-some.html",
+				"tags": ["Microposts"]
 			},
 			{
 				"id": "http://jnicholson.micro.blog/2023/06/18/how-i-use-tailscale.html",
 				"title": "How I Use Tailscale",
 				"content_html": "<h2 id=\"what-is-it\">What is it?</h2>\n<blockquote>\n<p><a href=\"https://tailscale.com/kb/1151/what-is-tailscale/#the-benefits\">Tailscale</a> is a VPN service that makes the devices and applications you own accessible anywhere in the world, securely and effortlessly. It enables encrypted point-to-point connections using the open source WireGuard protocol, which means only devices on your private network can communicate with each other.</p>\n</blockquote>\n<p>It has a very generous free tier that includes most of the features included in the higher paid tiers while limiting you to 100 devices&ndash;more than enough for my use cases.</p>\n<h2 id=\"where-does-it-work\">Where does it work?</h2>\n<p>Tailscale also has apps and integrations with all the operating systems and devices that I require. I have it installed on my <a href=\"https://pi-hole.net/\">pi-hole</a> and <a href=\"https://www.home-assistant.io/\">home assistant</a> Raspberry Pi&rsquo;s as well as my iPhone, Mac, and <a href=\"https://www.synology.com/en-us\">Synology NAS</a>.</p>\n<h2 id=\"ad-blocking\">Ad blocking</h2>\n<p>I have been casually using Tailscale, but I recently read this <a href=\"https://tailscale.com/kb/1114/pi-hole/\">post</a> that explained how to use Tailscale in coordination with your Pi-Hole to get ad-blocking even when I&rsquo;m not at home.</p>\n<p>One issue I ran into was covered by the <a href=\"https://tailscale.com/kb/1114/pi-hole/#troubleshooting\">troubleshooting</a> section of the previously mentioned article, but the UI of my Pi-Hole running versions <code> Pi-hole v5.17.1 FTL v5.23 Web Interface v5.20.1</code> did look a little different.</p>\n<h2 id=\"using-tailscale-while-traveling\">Using Tailscale while traveling</h2>\n<p>Another aspect of Tailscale I recently learned is the concept of <a href=\"https://tailscale.com/kb/1103/exit-nodes/\">exit nodes</a>.</p>\n<blockquote>\n<p>The exit node feature lets you route all non-Tailscale internet traffic through a specific device on your network.</p>\n</blockquote>\n<p>This means that I can use Tailscale in place of other VPN options to secure my internet traffic when I&rsquo;m traveling and using public wifi.</p>\n<h2 id=\"conclusion\">Conclusion</h2>\n<p>I&rsquo;m very happy with how powerful Tailscale is as well as how great the documentation is. The free tier is extremely useful and I&rsquo;m surprised that they offer all they do in the tier.</p>\n",
-				
+				"content_text": "\n## What is it?\n> [Tailscale](https://tailscale.com/kb/1151/what-is-tailscale/#the-benefits) is a VPN service that makes the devices and applications you own accessible anywhere in the world, securely and effortlessly. It enables encrypted point-to-point connections using the open source WireGuard protocol, which means only devices on your private network can communicate with each other.\n\nIt has a very generous free tier that includes most of the features included in the higher paid tiers while limiting you to 100 devices--more than enough for my use cases.\n\n## Where does it work?\nTailscale also has apps and integrations with all the operating systems and devices that I require. I have it installed on my [pi-hole](https://pi-hole.net/) and [home assistant](https://www.home-assistant.io/) Raspberry Pi's as well as my iPhone, Mac, and [Synology NAS](https://www.synology.com/en-us).\n\n## Ad blocking\nI have been casually using Tailscale, but I recently read this [post](https://tailscale.com/kb/1114/pi-hole/) that explained how to use Tailscale in coordination with your Pi-Hole to get ad-blocking even when I'm not at home.\n\nOne issue I ran into was covered by the [troubleshooting](https://tailscale.com/kb/1114/pi-hole/#troubleshooting) section of the previously mentioned article, but the UI of my Pi-Hole running versions `\nPi-hole v5.17.1 FTL v5.23 Web Interface v5.20.1` did look a little different.\n\n## Using Tailscale while traveling\nAnother aspect of Tailscale I recently learned is the concept of [exit nodes](https://tailscale.com/kb/1103/exit-nodes/).\n> The exit node feature lets you route all non-Tailscale internet traffic through a specific device on your network.\n\nThis means that I can use Tailscale in place of other VPN options to secure my internet traffic when I'm traveling and using public wifi.\n\n## Conclusion\nI'm very happy with how powerful Tailscale is as well as how great the documentation is. The free tier is extremely useful and I'm surprised that they offer all they do in the tier. \n",
 				"date_published": "2023-06-18T17:44:03-04:00",
-				"url": "https://jnicholson.micro.blog/2023/06/18/how-i-use-tailscale.html",
-				"tags": ["tailscale","vpn"]
+				"url": "https://jnicholson.blog/2023/06/18/how-i-use-tailscale.html",
+				"tags": ["Longform"]
 			},
 			{
 				"id": "http://jnicholson.micro.blog/2022/05/28/setting-up-hugo-on-cloudflare.html",
 				"title": "Setting Up Hugo on Cloudflare",
 				"content_html": "<p>I wanted to start off by sharing how I set up this my original homepage. I was impressed by how easy it was to do, especially since I&rsquo;m new to both Hugo and Cloudflare Pages.</p>\n<p>I followed the <a href=\"https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/\">excellent documentation</a> that Cloudflare provides. If you&rsquo;re not married to the idea of using Hugo, they also provide great documentation on <a href=\"https://developers.cloudflare.com/pages/framework-guides/\">other frameworks</a>.</p>\n<p>One thing I missed the first time I pushed updates to my repo was <a href=\"https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/#using-a-specific-hugo-version\">setting the version of Hugo</a>. The version that Hugo provides is older and didn&rsquo;t work with my chosen theme.</p>\n",
-				
+				"content_text": "\nI wanted to start off by sharing how I set up this my original homepage. I was impressed by how easy it was to do, especially since I'm new to both Hugo and Cloudflare Pages.\n\nI followed the [excellent documentation](https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/) that Cloudflare provides. If you're not married to the idea of using Hugo, they also provide great documentation on [other frameworks](https://developers.cloudflare.com/pages/framework-guides/).\n\nOne thing I missed the first time I pushed updates to my repo was [setting the version of Hugo](https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/#using-a-specific-hugo-version). The version that Hugo provides is older and didn't work with my chosen theme.\n",
 				"date_published": "2022-05-27T22:31:19-04:00",
-				"url": "https://jnicholson.micro.blog/2022/05/27/setting-up-hugo-on-cloudflare.html",
-				"tags": ["cloudflare","hugo","static site generators"]
+				"url": "https://jnicholson.blog/2022/05/27/setting-up-hugo-on-cloudflare.html",
+				"tags": ["Longform"]
 			},
 			{
 				"id": "http://jnicholson.micro.blog/2022/05/17/hello-world.html",
 				"title": "Hello World",
-				"content_html": "<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4\"><code class=\"language-csharp\" data-lang=\"csharp\">Console.Write(<span style=\"color:#e6db74\">&#34;hello world&#34;</span>);\n</code></pre></div>",
-				
+				"content_html": "<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\"><code class=\"language-csharp\" data-lang=\"csharp\"><span style=\"display:flex;\"><span>Console.Write(<span style=\"color:#e6db74\">&#34;hello world&#34;</span>);\n</span></span></code></pre></div>",
+				"content_text": "\n```csharp\nConsole.Write(\"hello world\");\n```\n",
 				"date_published": "2022-05-16T22:11:59-04:00",
-				"url": "https://jnicholson.micro.blog/2022/05/16/hello-world.html"
+				"url": "https://jnicholson.blog/2022/05/16/hello-world.html",
+				"tags": ["Longform"]
+			},
+			{
+				"id": "http://jnicholson.micro.blog/2022/05/12/221445.html",
+				
+				"content_html": "<p>Found a family of foxes in a den near my house</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Found a family of foxes in a den near my house\n\n<img src=\"uploads/2025/image.jpg\" width=\"600\" height=\"600\" alt=\"\">\n",
+				"date_published": "2022-05-12T22:14:45-04:00",
+				"url": "https://jnicholson.blog/2022/05/12/221445.html",
+				"tags": ["Microposts"]
+			},
+			{
+				"id": "http://jnicholson.micro.blog/2012/04/05/195902.html",
+				
+				"content_html": "<!-- raw HTML omitted -->\n",
+				"content_text": "<img src=\"uploads/2025/8714b4de8f.jpg\" width=\"600\" height=\"600\" alt=\"\">\n",
+				"date_published": "2012-04-05T19:59:02-04:00",
+				"url": "https://jnicholson.blog/2012/04/05/195902.html",
+				"tags": ["Microposts"]
 			}
 	]
 }
