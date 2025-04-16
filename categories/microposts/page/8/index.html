@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:title" content="Microposts">
+  <meta property="og:title" content="Microposts">
+  
+  
+  <meta name="twitter:description" content="">
+  <meta name="og:description" content="">
+  <meta name="description" content="">
+  
+  
+  <title>Microposts | Jonathan Nicholson</title>
+  <link rel="canonical" href="https://jnicholson.blog/categories/microposts/">
+  
+  <link rel="stylesheet" href="/css/main.css?1744807481">
+  
+  
+  <link rel="stylesheet" href="/css/all.min.css?1744807481">
+  
+  
+  <link rel="alternate" href="https://jnicholson.blog/feed.xml" type="application/rss+xml" title="Jonathan Nicholson">
+  <link rel="alternate" href="https://jnicholson.blog/feed.json" type="application/json" title="Jonathan Nicholson">
+
+
+<link rel="alternate" href="https://jnicholson.blog/categories/microposts/feed.xml" type="application/rss+xml" title="Jonathan Nicholson">
+<link rel="alternate" href="https://jnicholson.blog/categories/microposts/feed.json" type="application/json" title="Jonathan Nicholson">
+
+
+<link rel="me" href="https://micro.blog/jnicholson">
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="https://micro.blog/jnicholson/favicon.png" type="image/x-icon">
+<link rel="EditURI" type="application/rsd+xml" href="https://jnicholson.blog/rsd.xml">
+<link rel="authorization_endpoint" href="https://micro.blog/indieauth/auth">
+<link rel="token_endpoint" href="https://micro.blog/indieauth/token">
+<link rel="subscribe" href="https://micro.blog/users/follow">
+<link rel="webmention" href="https://micro.blog/webmention">
+<link rel="micropub" href="https://micro.blog/micropub">
+<link rel="microsub" href="https://micro.blog/microsub">
+
+<link rel="stylesheet" href="/custom.css?1744807481">
+
+
+  <link rel="stylesheet" href="/css/collections.css?1744811112">
+
+  <link rel="stylesheet" href="/css/micro-masonry.css?1744811112">
+
+
+
+  <script>
+	document.addEventListener('DOMContentLoaded', () => {
+		const images = document.querySelectorAll('.microblog_collection img');
+		let currentImageIndex = 0;
+		let isMultiLightbox = false;
+
+		function createLightbox() {
+			
+			const lightbox = document.createElement('div');
+			lightbox.id = 'microblog_lightbox';
+			
+			const closeBtn = document.createElement('button');
+			closeBtn.id = 'microblog_lightbox_close_btn';
+			closeBtn.innerHTML = '&times;';
+			
+			const prevBtn = document.createElement('button');
+			prevBtn.id = 'microblog_lightbox_prev_btn';
+			prevBtn.className = 'microblog_lightbox_nav';
+			prevBtn.innerHTML = '&larr;';
+			
+			const nextBtn = document.createElement('button');
+			nextBtn.id = 'microblog_lightbox_next_btn';
+			nextBtn.className = 'microblog_lightbox_nav';
+			nextBtn.innerHTML = '&rarr;';
+			
+			const lightboxImg = document.createElement('img');
+			lightboxImg.id = 'microblog_lightbox_img';
+			lightboxImg.alt = 'Lightbox Image';
+			
+			lightbox.appendChild(closeBtn);
+			lightbox.appendChild(prevBtn);
+			lightbox.appendChild(lightboxImg);
+			lightbox.appendChild(nextBtn);
+			
+			document.body.appendChild(lightbox);
+		
+			return { lightbox, closeBtn, prevBtn, nextBtn, lightboxImg };
+		}
+		
+		const { 
+			lightbox, 
+			closeBtn, 
+			prevBtn, 
+			nextBtn, 
+			lightboxImg 
+		} = createLightbox();
+
+		function openMultiLightbox(index) {
+			isMultiLightbox = true;
+			currentImageIndex = index;
+			lightboxImg.src = images[index].getAttribute('data-microblog-lightbox');
+			lightbox.style.display = 'flex';
+
+			
+			prevBtn.style.display = 'block';
+			nextBtn.style.display = 'block';
+		}
+		
+		function openSingleLightbox(url) {
+			isMultiLightbox = false;
+			lightboxImg.src = url;
+			lightbox.style.display = 'flex';
+
+			
+			prevBtn.style.display = 'none';
+			nextBtn.style.display = 'none';
+		}
+
+		function closeLightbox() {
+			lightbox.style.display = 'none';
+		}
+
+		function navigatePrevious() {
+			currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+			lightboxImg.src = images[currentImageIndex].getAttribute('data-microblog-lightbox');
+		}
+
+		function navigateNext() {
+			currentImageIndex = (currentImageIndex + 1) % images.length;
+			lightboxImg.src = images[currentImageIndex].getAttribute('data-microblog-lightbox');
+		}
+
+		
+		images.forEach((img, index) => {
+			img.addEventListener('click', () => openMultiLightbox(index));
+		});
+
+		closeBtn.addEventListener('click', closeLightbox);
+		prevBtn.addEventListener('click', navigatePrevious);
+		nextBtn.addEventListener('click', navigateNext);
+
+		
+		document.addEventListener('keydown', (e) => {
+			if (lightbox.style.display === 'flex') {
+				switch (e.key) {
+					case 'ArrowLeft':
+						if (isMultiLightbox) {
+							navigatePrevious();
+						}
+						break;
+					case 'ArrowRight':
+						if (isMultiLightbox) {
+							navigateNext();
+						}
+						break;
+					case 'Escape':
+						closeLightbox();
+						break;
+				}
+			}
+		});
+
+		
+		lightbox.addEventListener('click', (e) => {
+			if (e.target === lightbox) {
+				closeLightbox();
+			}
+		});
+		
+		
+		const single_images = document.querySelectorAll(".e-content img, .p-summary img");
+		single_images.forEach(function(image) {
+			
+			if (image.closest(".microblog_collection")) {
+				return;
+			}
+		
+			
+			if (!image.closest("a")) {
+				
+				const hasClickHandler = image.onclick || image.hasAttribute("onclick");
+				const hasTouchHandler = image.ontouchstart || image.hasAttribute("ontouchstart");
+		
+				
+				if (!hasClickHandler && !hasTouchHandler) {
+					image.addEventListener("click", function() {
+						openSingleLightbox(image.src);
+					});
+				}
+			}
+		});
+	});
+</script>
+
+
+
+  
+</head>
+
+
+<body>
+  <header class="site-header">
+	
+	<a href="/"><img src="https://avatars.micro.blog/avatars/2025/13/1750968.jpg" alt="Jonathan Nicholson Profile Photo" class="profile_photo u-photo" width="80" height="80"></a>
+	
+	
+	<h1><a class="site-title p-name u-url" href="/">Jonathan Nicholson</a></h1>
+	
+	
+	<p class="description"></p>
+	
+	
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			<li><a class="page-link About" href="/about/">About</a></li>
+			
+			
+			
+			<li><a class="page-link Archive" href="/archive/">Archive</a></li>
+			
+			
+			
+			<li><a class="page-link Photos" href="/photos/">Photos</a></li>
+			
+			
+			
+			<li><a class="page-link Replies" href="/replies/">Replies</a></li>
+			
+			
+			
+			<li><a class="page-link Books" href="/books/">Books</a></li>
+			
+			
+			
+		</ul>
+	</nav>
+	
+</header>
+
+
+  <div class="page-content">
+    <div class="wrapper">
+      
+
+<div class="archive h-feed Microposts">
+
+  <h2 class="p-name category-title">Microposts</h2>
+
+  <ul class="post-list">
+    
+    
+    <div class="post-preview h-entry  microposts">
+      
+      <a href="https://jnicholson.blog/2020/04/05/155331.html" class="post-date u-url"><time class="dt-published" datetime="2020-04-05 15:53:31 -0400">Apr 5, 2020</time> ∞</a>
+      
+      
+          <div class="e-content">
+              <img src="uploads/2025/6237bb488d.jpg" width="600" height="598" alt="">
+
+          </div>
+      
+      
+      
+    </div>
+    
+    <div class="post-preview h-entry  microposts">
+      
+      <a href="https://jnicholson.blog/2020/04/04/daffodils-aphotoadayapril.html" class="post-date u-url"><time class="dt-published" datetime="2020-04-04 19:11:14 -0400">Apr 4, 2020</time> ∞</a>
+      
+      
+          <div class="e-content">
+              <p>Daffodils!
+#aphotoadayapril</p>
+<img src="uploads/2025/757f572041.jpg" width="600" height="400" alt="">
+
+          </div>
+      
+      
+      
+    </div>
+    
+    <div class="post-preview h-entry  microposts">
+      
+      <a href="https://jnicholson.blog/2020/04/03/even-when-things-are-looking.html" class="post-date u-url"><time class="dt-published" datetime="2020-04-03 12:47:06 -0400">Apr 3, 2020</time> ∞</a>
+      
+      
+          <div class="e-content">
+              <p>Even when things are looking up, itâs sometimes worth it to look down. I donât know what that means. Anyways, bonus photo for the day. One of the last blooms of my winter aconite. #aphotoadayapril</p>
+<img src="uploads/2025/d51f8eeedb.jpg" width="600" height="598" alt="">
+
+          </div>
+      
+      
+      
+    </div>
+    
+    <div class="post-preview h-entry  microposts">
+      
+      <a href="https://jnicholson.blog/2020/04/03/things-are-looking-up-in.html" class="post-date u-url"><time class="dt-published" datetime="2020-04-03 12:45:30 -0400">Apr 3, 2020</time> ∞</a>
+      
+      
+          <div class="e-content">
+              <p>Things are looking up in my backyard #aphotoadayapril</p>
+<img src="uploads/2025/2806eb4cf2.jpg" width="600" height="400" alt="">
+
+          </div>
+      
+      
+      
+    </div>
+    
+    <div class="post-preview h-entry  microposts">
+      
+      <a href="https://jnicholson.blog/2020/04/02/aphotoadayapril.html" class="post-date u-url"><time class="dt-published" datetime="2020-04-02 23:23:49 -0400">Apr 2, 2020</time> ∞</a>
+      
+      
+          <div class="e-content">
+              <p>#aphotoadayapril</p>
+<img src="uploads/2025/14ee36e548.jpg" width="600" height="598" alt="">
+
+          </div>
+      
+      
+      
+    </div>
+    
+    <div class="post-preview h-entry  microposts">
+      
+      <a href="https://jnicholson.blog/2020/04/01/oh-hi-there.html" class="post-date u-url"><time class="dt-published" datetime="2020-04-01 22:58:54 -0400">Apr 1, 2020</time> ∞</a>
+      
+      
+          <div class="e-content">
+              <p>Oh hi there</p>
+<img src="uploads/2025/95ba58bd11.jpg" width="600" height="600" alt="">
+
+          </div>
+      
+      
+      
+    </div>
+    
+    <div class="post-preview h-entry  microposts">
+      
+      <a href="https://jnicholson.blog/2020/03/31/191352.html" class="post-date u-url"><time class="dt-published" datetime="2020-03-31 19:13:52 -0400">Mar 31, 2020</time> ∞</a>
+      
+      
+          <div class="e-content">
+              <img src="uploads/2025/04e3ba00be.jpg" width="600" height="600" alt="">
+
+          </div>
+      
+      
+      
+    </div>
+    
+    <div class="post-preview h-entry  microposts">
+      
+      <a href="https://jnicholson.blog/2020/03/25/133029.html" class="post-date u-url"><time class="dt-published" datetime="2020-03-25 13:30:29 -0400">Mar 25, 2020</time> ∞</a>
+      
+      
+          <div class="e-content">
+              <img src="uploads/2025/e40bc87368.jpg" width="600" height="600" alt="">
+
+          </div>
+      
+      
+      
+    </div>
+    
+    <div class="post-preview h-entry  microposts">
+      
+      <a href="https://jnicholson.blog/2020/03/25/i-think-i-received-a.html" class="post-date u-url"><time class="dt-published" datetime="2020-03-25 11:17:42 -0400">Mar 25, 2020</time> ∞</a>
+      
+      
+          <div class="e-content">
+              <p>I <em>think</em> I received a visit from a Merlin this morning.</p>
+<img src="uploads/2025/5cd499df4c.jpg" width="600" height="600" alt="">
+
+          </div>
+      
+      
+      
+    </div>
+    
+    <div class="post-preview h-entry  microposts">
+      
+      <a href="https://jnicholson.blog/2020/03/22/190421.html" class="post-date u-url"><time class="dt-published" datetime="2020-03-22 19:04:21 -0400">Mar 22, 2020</time> ∞</a>
+      
+      
+          <div class="e-content">
+              <img src="uploads/2025/49dcaf934e.jpg" width="600" height="450" alt="">
+
+          </div>
+      
+      
+      
+    </div>
+    
+    <div class="post-preview h-entry  microposts">
+      
+      <a href="https://jnicholson.blog/2020/03/14/had-a-friendly-visitor-named.html" class="post-date u-url"><time class="dt-published" datetime="2020-03-14 20:45:50 -0400">Mar 14, 2020</time> ∞</a>
+      
+      
+          <div class="e-content">
+              <p>Had a friendly visitor named Ned this evening.</p>
+<img src="uploads/2025/ac929ec9b5.jpg" width="600" height="489" alt="">
+
+          </div>
+      
+      
+      
+    </div>
+    
+    <div class="post-preview h-entry  microposts">
+      
+      <a href="https://jnicholson.blog/2020/03/06/215826.html" class="post-date u-url"><time class="dt-published" datetime="2020-03-06 21:58:26 -0400">Mar 6, 2020</time> ∞</a>
+      
+      
+          <div class="e-content">
+              <img src="uploads/2025/6514c73f99.jpg" width="600" height="599" alt="">
+
+          </div>
+      
+      
+      
+    </div>
+    
+    <div class="post-preview h-entry  microposts">
+      
+      <a href="https://jnicholson.blog/2020/03/06/122843.html" class="post-date u-url"><time class="dt-published" datetime="2020-03-06 12:28:43 -0400">Mar 6, 2020</time> ∞</a>
+      
+      
+          <div class="e-content">
+              <img src="uploads/2025/2c5a48ad4b.jpg" width="480" height="600" alt="">
+
+          </div>
+      
+      
+      
+    </div>
+    
+    <div class="post-preview h-entry  microposts">
+      
+      <a href="https://jnicholson.blog/2020/03/06/last-day-here-and-im.html" class="post-date u-url"><time class="dt-published" datetime="2020-03-06 11:26:26 -0400">Mar 6, 2020</time> ∞</a>
+      
+      
+          <div class="e-content">
+              <p>Last day here, and Iâm resorting to hot tea to stay warm. Can you believe it hasnât even hit 70 yet today?</p>
+<img src="uploads/2025/638dcd4c7f.jpg" width="600" height="600" alt="">
+
+          </div>
+      
+      
+      
+    </div>
+    
+    <div class="post-preview h-entry  microposts">
+      
+      <a href="https://jnicholson.blog/2020/03/06/not-much-of-a-sunrise.html" class="post-date u-url"><time class="dt-published" datetime="2020-03-06 07:54:03 -0400">Mar 6, 2020</time> ∞</a>
+      
+      
+          <div class="e-content">
+              <p>Not much of a sunrise to see on my last day on the island, but it was a nice refreshing scurry to the beach to see what I could see.</p>
+<img src="uploads/2025/3baf6cedb0.jpg" width="600" height="450" alt="">
+
+          </div>
+      
+      
+      
+    </div>
+    
+    <div class="post-preview h-entry  microposts">
+      
+      <a href="https://jnicholson.blog/2020/03/05/so-much-noise-so-not.html" class="post-date u-url"><time class="dt-published" datetime="2020-03-05 21:23:37 -0400">Mar 5, 2020</time> ∞</a>
+      
+      
+          <div class="e-content">
+              <p>So much noise. So not on purpose. Just imagine it without the snowstorm and youâd be left with soft red light filtering down onto an empty lot. #wishihadmydslr #yesfilter #somuchnoise</p>
+<img src="uploads/2025/d3b259eb3e.jpg" width="480" height="600" alt="">
+
+          </div>
+      
+      
+      
+    </div>
+    
+    <div class="post-preview h-entry  microposts">
+      
+      <a href="https://jnicholson.blog/2020/03/05/162605.html" class="post-date u-url"><time class="dt-published" datetime="2020-03-05 16:26:05 -0400">Mar 5, 2020</time> ∞</a>
+      
+      
+          <div class="e-content">
+              <img src="uploads/2025/b04c820434.jpg" width="600" height="600" alt="">
+
+          </div>
+      
+      
+      
+    </div>
+    
+    <div class="post-preview h-entry  microposts">
+      
+      <a href="https://jnicholson.blog/2020/03/05/this-is-a-donax-a.html" class="post-date u-url"><time class="dt-published" datetime="2020-03-05 12:52:00 -0400">Mar 5, 2020</time> ∞</a>
+      
+      
+          <div class="e-content">
+              <p>This is a Donax, a genus of small edible saltwater clams. Namesake of one of the streets on the island. Send help.</p>
+<img src="uploads/2025/967d7d3db5.jpg" width="600" height="600" alt="">
+
+          </div>
+      
+      
+      
+    </div>
+    
+    <div class="post-preview h-entry  microposts">
+      
+      <a href="https://jnicholson.blog/2020/03/04/115811.html" class="post-date u-url"><time class="dt-published" datetime="2020-03-04 11:58:11 -0400">Mar 4, 2020</time> ∞</a>
+      
+      
+          <div class="e-content">
+              <img src="uploads/2025/00ceacbd76.jpg" width="600" height="450" alt="">
+
+          </div>
+      
+      
+      
+    </div>
+    
+    <div class="post-preview h-entry  microposts">
+      
+      <a href="https://jnicholson.blog/2020/03/03/175136.html" class="post-date u-url"><time class="dt-published" datetime="2020-03-03 17:51:36 -0400">Mar 3, 2020</time> ∞</a>
+      
+      
+          <div class="e-content">
+              <img src="uploads/2025/7fb1c4b120.jpg" width="600" height="600" alt="">
+
+          </div>
+      
+      
+      
+    </div>
+    
+  </ul>
+</div>
+
+<div class="post-nav">
+  
+  <span class="prev">
+    <a href="/categories/microposts/page/7/" title="Previous Page"><span class="arrow">← Newer Posts</span></a>
+  </span>
+  
+  
+  <span class="next">
+    <a href="/categories/microposts/page/9/"><span class="arrow">Older Posts →</span></a>
+  </span>
+  
+</div>
+
+
+
+    </div>
+    
+  </div>
+  <footer class="site-footer">
+
+  <div class="wrapper">
+    
+    <p class="custom_footer"></p>
+    
+    <p class="attribution custom_footer">Hosted by <a href="https://micro.blog">Micro.blog</a>. Powered by <a href="https://tiny.micro.blog">Tiny Theme</a>. Designed with ♥ by <a href="https://www.mattlangford.com">Matt Langford</a>.</p>
+  </div>
+
+</footer>
+
+
+  
+
+  
+</body>
+
+</html>

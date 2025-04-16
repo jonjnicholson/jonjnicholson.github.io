@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="generator" content="Hugo 0.117.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:title" content="Jonathan Nicholson">
+  <meta property="og:title" content="Jonathan Nicholson">
+  
+  
+  <meta name="twitter:description" content="">
+  <meta name="og:description" content="">
+  <meta name="description" content="">
+  <meta name="twitter:image" content="https://avatars.micro.blog/avatars/2025/13/1750968.jpg">
+  <meta property="og:image" content="https://avatars.micro.blog/avatars/2025/13/1750968.jpg">
+  
+  
+  <title>Jonathan Nicholson</title>
+  <link rel="canonical" href="https://jnicholson.blog/">
+  
+  <link rel="stylesheet" href="/css/main.css?1744807481">
+  
+  
+  <link rel="stylesheet" href="/css/all.min.css?1744807481">
+  
+  
+
+<link rel="alternate" href="https://jnicholson.blog/feed.xml" type="application/rss+xml" title="Jonathan Nicholson">
+<link rel="alternate" href="https://jnicholson.blog/feed.json" type="application/json" title="Jonathan Nicholson">
+
+
+<link rel="me" href="https://micro.blog/jnicholson">
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="https://micro.blog/jnicholson/favicon.png" type="image/x-icon">
+<link rel="EditURI" type="application/rsd+xml" href="https://jnicholson.blog/rsd.xml">
+<link rel="authorization_endpoint" href="https://micro.blog/indieauth/auth">
+<link rel="token_endpoint" href="https://micro.blog/indieauth/token">
+<link rel="subscribe" href="https://micro.blog/users/follow">
+<link rel="webmention" href="https://micro.blog/webmention">
+<link rel="micropub" href="https://micro.blog/micropub">
+<link rel="microsub" href="https://micro.blog/microsub">
+
+<link rel="stylesheet" href="/custom.css?1744807481">
+
+
+  <link rel="stylesheet" href="/css/collections.css?1744811112">
+
+  <link rel="stylesheet" href="/css/micro-masonry.css?1744811112">
+
+
+
+  <script>
+	document.addEventListener('DOMContentLoaded', () => {
+		const images = document.querySelectorAll('.microblog_collection img');
+		let currentImageIndex = 0;
+		let isMultiLightbox = false;
+
+		function createLightbox() {
+			
+			const lightbox = document.createElement('div');
+			lightbox.id = 'microblog_lightbox';
+			
+			const closeBtn = document.createElement('button');
+			closeBtn.id = 'microblog_lightbox_close_btn';
+			closeBtn.innerHTML = '&times;';
+			
+			const prevBtn = document.createElement('button');
+			prevBtn.id = 'microblog_lightbox_prev_btn';
+			prevBtn.className = 'microblog_lightbox_nav';
+			prevBtn.innerHTML = '&larr;';
+			
+			const nextBtn = document.createElement('button');
+			nextBtn.id = 'microblog_lightbox_next_btn';
+			nextBtn.className = 'microblog_lightbox_nav';
+			nextBtn.innerHTML = '&rarr;';
+			
+			const lightboxImg = document.createElement('img');
+			lightboxImg.id = 'microblog_lightbox_img';
+			lightboxImg.alt = 'Lightbox Image';
+			
+			lightbox.appendChild(closeBtn);
+			lightbox.appendChild(prevBtn);
+			lightbox.appendChild(lightboxImg);
+			lightbox.appendChild(nextBtn);
+			
+			document.body.appendChild(lightbox);
+		
+			return { lightbox, closeBtn, prevBtn, nextBtn, lightboxImg };
+		}
+		
+		const { 
+			lightbox, 
+			closeBtn, 
+			prevBtn, 
+			nextBtn, 
+			lightboxImg 
+		} = createLightbox();
+
+		function openMultiLightbox(index) {
+			isMultiLightbox = true;
+			currentImageIndex = index;
+			lightboxImg.src = images[index].getAttribute('data-microblog-lightbox');
+			lightbox.style.display = 'flex';
+
+			
+			prevBtn.style.display = 'block';
+			nextBtn.style.display = 'block';
+		}
+		
+		function openSingleLightbox(url) {
+			isMultiLightbox = false;
+			lightboxImg.src = url;
+			lightbox.style.display = 'flex';
+
+			
+			prevBtn.style.display = 'none';
+			nextBtn.style.display = 'none';
+		}
+
+		function closeLightbox() {
+			lightbox.style.display = 'none';
+		}
+
+		function navigatePrevious() {
+			currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+			lightboxImg.src = images[currentImageIndex].getAttribute('data-microblog-lightbox');
+		}
+
+		function navigateNext() {
+			currentImageIndex = (currentImageIndex + 1) % images.length;
+			lightboxImg.src = images[currentImageIndex].getAttribute('data-microblog-lightbox');
+		}
+
+		
+		images.forEach((img, index) => {
+			img.addEventListener('click', () => openMultiLightbox(index));
+		});
+
+		closeBtn.addEventListener('click', closeLightbox);
+		prevBtn.addEventListener('click', navigatePrevious);
+		nextBtn.addEventListener('click', navigateNext);
+
+		
+		document.addEventListener('keydown', (e) => {
+			if (lightbox.style.display === 'flex') {
+				switch (e.key) {
+					case 'ArrowLeft':
+						if (isMultiLightbox) {
+							navigatePrevious();
+						}
+						break;
+					case 'ArrowRight':
+						if (isMultiLightbox) {
+							navigateNext();
+						}
+						break;
+					case 'Escape':
+						closeLightbox();
+						break;
+				}
+			}
+		});
+
+		
+		lightbox.addEventListener('click', (e) => {
+			if (e.target === lightbox) {
+				closeLightbox();
+			}
+		});
+		
+		
+		const single_images = document.querySelectorAll(".e-content img, .p-summary img");
+		single_images.forEach(function(image) {
+			
+			if (image.closest(".microblog_collection")) {
+				return;
+			}
+		
+			
+			if (!image.closest("a")) {
+				
+				const hasClickHandler = image.onclick || image.hasAttribute("onclick");
+				const hasTouchHandler = image.ontouchstart || image.hasAttribute("ontouchstart");
+		
+				
+				if (!hasClickHandler && !hasTouchHandler) {
+					image.addEventListener("click", function() {
+						openSingleLightbox(image.src);
+					});
+				}
+			}
+		});
+	});
+</script>
+
+
+
+  
+</head>
+
+
+<body>
+  <header class="site-header">
+	
+	<a href="/"><img src="https://avatars.micro.blog/avatars/2025/13/1750968.jpg" alt="Jonathan Nicholson Profile Photo" class="profile_photo u-photo" width="80" height="80"></a>
+	
+	
+	<h1><a class="site-title p-name u-url" href="/">Jonathan Nicholson</a></h1>
+	
+	
+	<p class="description"></p>
+	
+	
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			<li><a class="page-link About" href="/about/">About</a></li>
+			
+			
+			
+			<li><a class="page-link Archive" href="/archive/">Archive</a></li>
+			
+			
+			
+			<li><a class="page-link Photos" href="/photos/">Photos</a></li>
+			
+			
+			
+			<li><a class="page-link Replies" href="/replies/">Replies</a></li>
+			
+			
+			
+			<li><a class="page-link Books" href="/books/">Books</a></li>
+			
+			
+			
+		</ul>
+	</nav>
+	
+</header>
+
+
+  <div class="page-content">
+    <div class="wrapper">
+      
+
+
+
+<div class="posts h-feed">
+    <div class="post_list" role="main">
+        
+        
+        <div class="post-preview h-entry  microposts">
+            
+            <a href="https://jnicholson.blog/2019/04/07/it-feels-nicer-than-it.html" class="post-date u-url"><time class="dt-published" datetime="2019-04-07 15:15:28 -0400">Apr 7, 2019</time> ∞</a>
+            
+            
+                <div class="e-content">
+                    <p>It feels nicer than it looks.</p>
+<img src="uploads/2025/5dfaf29ca8.jpg" width="480" height="600" alt="">
+
+                </div>
+            
+            
+        </div>
+        
+        <div class="post-preview h-entry  microposts">
+            
+            <a href="https://jnicholson.blog/2019/04/03/had-some-slightly-quieter-walking.html" class="post-date u-url"><time class="dt-published" datetime="2019-04-03 14:03:41 -0400">Apr 3, 2019</time> ∞</a>
+            
+            
+                <div class="e-content">
+                    <p>Had some slightly quieter walking companions today.</p>
+<img src="uploads/2025/b34e64877e.jpg" width="600" height="449" alt="">
+
+                </div>
+            
+            
+        </div>
+        
+        <div class="post-preview h-entry  microposts">
+            
+            <a href="https://jnicholson.blog/2019/04/01/wish-me-luck.html" class="post-date u-url"><time class="dt-published" datetime="2019-04-01 14:41:33 -0400">Apr 1, 2019</time> ∞</a>
+            
+            
+                <div class="e-content">
+                    <p>Wish me luck.</p>
+<img src="uploads/2025/97229f8eec.jpg" width="600" height="600" alt="">
+
+                </div>
+            
+            
+        </div>
+        
+        <div class="post-preview h-entry  microposts">
+            
+            <a href="https://jnicholson.blog/2019/03/29/it-is-too-nice-out.html" class="post-date u-url"><time class="dt-published" datetime="2019-03-29 15:49:36 -0400">Mar 29, 2019</time> ∞</a>
+            
+            
+                <div class="e-content">
+                    <p>It is too nice out to stay cooped up all day.</p>
+<img src="uploads/2025/89bc0fbaf8.jpg" width="480" height="600" alt="">
+
+                </div>
+            
+            
+        </div>
+        
+        <div class="post-preview h-entry  microposts">
+            
+            <a href="https://jnicholson.blog/2018/09/29/173425.html" class="post-date u-url"><time class="dt-published" datetime="2018-09-29 17:34:25 -0400">Sep 29, 2018</time> ∞</a>
+            
+            
+                <div class="e-content">
+                    <img src="uploads/2025/438e5a5dac.jpg" width="480" height="600" alt="">
+
+                </div>
+            
+            
+        </div>
+        
+        <div class="post-preview h-entry  microposts">
+            
+            <a href="https://jnicholson.blog/2018/09/29/this-one-got-my-vote.html" class="post-date u-url"><time class="dt-published" datetime="2018-09-29 15:09:49 -0400">Sep 29, 2018</time> ∞</a>
+            
+            
+                <div class="e-content">
+                    <p>This one got my vote. #artprize2018</p>
+<img src="uploads/2025/9dd4bbc048.jpg" width="480" height="600" alt="">
+
+                </div>
+            
+            
+        </div>
+        
+        <div class="post-preview h-entry  microposts">
+            
+            <a href="https://jnicholson.blog/2018/09/29/artprize.html" class="post-date u-url"><time class="dt-published" datetime="2018-09-29 15:09:15 -0400">Sep 29, 2018</time> ∞</a>
+            
+            
+                <div class="e-content">
+                    <p>#artprize2018</p>
+<img src="uploads/2025/b1571cf3f8.jpg" width="480" height="600" alt="">
+
+                </div>
+            
+            
+        </div>
+        
+        <div class="post-preview h-entry  microposts">
+            
+            <a href="https://jnicholson.blog/2018/09/29/coffee-artprize.html" class="post-date u-url"><time class="dt-published" datetime="2018-09-29 14:51:38 -0400">Sep 29, 2018</time> ∞</a>
+            
+            
+                <div class="e-content">
+                    <p>Coffee!! #artprize2018</p>
+<img src="uploads/2025/2f208ea37e.jpg" width="480" height="600" alt="">
+
+                </div>
+            
+            
+        </div>
+        
+        <div class="post-preview h-entry  microposts">
+            
+            <a href="https://jnicholson.blog/2018/07/06/bachelor-party-brogettinghitched.html" class="post-date u-url"><time class="dt-published" datetime="2018-07-06 20:43:32 -0400">Jul 6, 2018</time> ∞</a>
+            
+            
+                <div class="e-content">
+                    <p>Bachelor party. #brogettinghitched</p>
+<img src="uploads/2025/0c53c5b9c5.jpg" width="480" height="600" alt="">
+
+                </div>
+            
+            
+        </div>
+        
+        <div class="post-preview h-entry  microposts">
+            
+            <a href="https://jnicholson.blog/2018/05/28/092959.html" class="post-date u-url"><time class="dt-published" datetime="2018-05-28 09:29:59 -0400">May 28, 2018</time> ∞</a>
+            
+            
+                <div class="e-content">
+                    <img src="uploads/2025/66680bc616.jpg" width="600" height="502" alt="">
+
+                </div>
+            
+            
+        </div>
+        
+        <div class="post-preview h-entry  microposts">
+            
+            <a href="https://jnicholson.blog/2018/03/04/143402.html" class="post-date u-url"><time class="dt-published" datetime="2018-03-04 14:34:02 -0400">Mar 4, 2018</time> ∞</a>
+            
+            
+                <div class="e-content">
+                    <img src="uploads/2025/65d5104e37.jpg" width="600" height="599" alt="">
+
+                </div>
+            
+            
+        </div>
+        
+        <div class="post-preview h-entry  microposts">
+            
+            <a href="https://jnicholson.blog/2017/11/25/135542.html" class="post-date u-url"><time class="dt-published" datetime="2017-11-25 13:55:42 -0400">Nov 25, 2017</time> ∞</a>
+            
+            
+                <div class="e-content">
+                    <img src="uploads/2025/bacee75c4d.jpg" width="600" height="400" alt="">
+
+                </div>
+            
+            
+        </div>
+        
+        <div class="post-preview h-entry  microposts">
+            
+            <a href="https://jnicholson.blog/2017/10/24/day.html" class="post-date u-url"><time class="dt-published" datetime="2017-10-24 16:29:13 -0400">Oct 24, 2017</time> ∞</a>
+            
+            
+                <div class="e-content">
+                    <p>Day 3</p>
+<img src="uploads/2025/6d34aa69d0.jpg" width="559" height="600" alt="">
+
+                </div>
+            
+            
+        </div>
+        
+        <div class="post-preview h-entry  microposts">
+            
+            <a href="https://jnicholson.blog/2017/10/23/day.html" class="post-date u-url"><time class="dt-published" datetime="2017-10-23 11:32:07 -0400">Oct 23, 2017</time> ∞</a>
+            
+            
+                <div class="e-content">
+                    <p>Day 2.</p>
+<img src="uploads/2025/e0b51c5390.jpg" width="480" height="600" alt="">
+
+                </div>
+            
+            
+        </div>
+        
+        <div class="post-preview h-entry  microposts">
+            
+            <a href="https://jnicholson.blog/2017/10/22/122144.html" class="post-date u-url"><time class="dt-published" datetime="2017-10-22 12:21:44 -0400">Oct 22, 2017</time> ∞</a>
+            
+            
+                <div class="e-content">
+                    <img src="uploads/2025/798d756acb.jpg" width="538" height="600" alt="">
+
+                </div>
+            
+            
+        </div>
+        
+        <div class="post-preview h-entry  microposts">
+            
+            <a href="https://jnicholson.blog/2017/09/28/they-told-us-that-all.html" class="post-date u-url"><time class="dt-published" datetime="2017-09-28 16:54:15 -0400">Sep 28, 2017</time> ∞</a>
+            
+            
+                <div class="e-content">
+                    <p>They told us that all Spanish bartenders were gruff and all business. Wrong! This guy was great and didnât even speak English. Here he is comparing the English and Spanish menus with Josh.</p>
+<img src="uploads/2025/0903cb1d1a.jpg" width="480" height="600" alt="">
+
+                </div>
+            
+            
+        </div>
+        
+        <div class="post-preview h-entry  microposts">
+            
+            <a href="https://jnicholson.blog/2017/09/28/gotta-cure-that-jamn-twinningspain.html" class="post-date u-url"><time class="dt-published" datetime="2017-09-28 16:51:58 -0400">Sep 28, 2017</time> ∞</a>
+            
+            
+                <div class="e-content">
+                    <p>Gotta cure that jamÃ³n. #twinningspain2017</p>
+<img src="uploads/2025/d6428fcf9c.jpg" width="480" height="600" alt="">
+
+                </div>
+            
+            
+        </div>
+        
+        <div class="post-preview h-entry  microposts">
+            
+            <a href="https://jnicholson.blog/2017/09/28/jamn-ibrico-y-queso-twinningspain.html" class="post-date u-url"><time class="dt-published" datetime="2017-09-28 16:51:13 -0400">Sep 28, 2017</time> ∞</a>
+            
+            
+                <div class="e-content">
+                    <p>JamÃ³n ibÃ©rico y queso! #twinningspain2017</p>
+<img src="uploads/2025/0f35f4228b.jpg" width="480" height="600" alt="">
+
+                </div>
+            
+            
+        </div>
+        
+        <div class="post-preview h-entry  microposts">
+            
+            <a href="https://jnicholson.blog/2017/09/28/josh-and-some-sort-of.html" class="post-date u-url"><time class="dt-published" datetime="2017-09-28 16:50:26 -0400">Sep 28, 2017</time> ∞</a>
+            
+            
+                <div class="e-content">
+                    <p>Josh! &hellip;and some sort of building important to the entire Spanish monarchy&hellip; #twinningspain2017</p>
+<img src="uploads/2025/adefca9138.jpg" width="600" height="600" alt="">
+
+                </div>
+            
+            
+        </div>
+        
+        <div class="post-preview h-entry  microposts">
+            
+            <a href="https://jnicholson.blog/2017/09/28/twinningspain.html" class="post-date u-url"><time class="dt-published" datetime="2017-09-28 16:49:21 -0400">Sep 28, 2017</time> ∞</a>
+            
+            
+                <div class="e-content">
+                    <p>#twinningspain2017</p>
+<img src="uploads/2025/b454c12edb.jpg" width="600" height="475" alt="">
+
+                </div>
+            
+            
+        </div>
+        
+    </div>
+</div>
+
+
+<div class="post-nav">
+    
+    <span class="prev">
+        <a href="/page/9/" title="Previous Page"><span class="arrow">← Newer Posts</span></a>
+    </span>
+    
+    
+    <span class="next">
+        <a href="/page/11/"><span class="arrow">Older Posts →</span></a>
+    </span>
+    
+</div>
+
+
+
+    </div>
+    
+  </div>
+  <footer class="site-footer">
+
+  <div class="wrapper">
+    
+    <p class="custom_footer"></p>
+    
+    <p class="attribution custom_footer">Hosted by <a href="https://micro.blog">Micro.blog</a>. Powered by <a href="https://tiny.micro.blog">Tiny Theme</a>. Designed with ♥ by <a href="https://www.mattlangford.com">Matt Langford</a>.</p>
+  </div>
+
+</footer>
+
+
+  
+
+  
+</body>
+
+</html>

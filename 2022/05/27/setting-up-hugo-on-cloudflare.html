@@ -5,22 +5,30 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Setting Up Hugo on Cloudflare">
-    <meta property="og:title" content="Setting Up Hugo on Cloudflare">
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:title" content="Setting Up Hugo on Cloudflare">
+  <meta property="og:title" content="Setting Up Hugo on Cloudflare">
   
   
-    <meta name="twitter:description" content="I wanted to start off by sharing how I set up this my …">
-    <meta name="og:description" content="I wanted to start off by sharing how I set up this my …">
-    <meta name="description" content="I wanted to start off by sharing how I set up this my original homepage. I was impressed by how easy it was to do, especially since I&rsquo;m new to both Hugo and Cloudflare Pages.
+  <meta name="twitter:description" content="I wanted to start off by sharing how I set up this my …">
+  <meta name="og:description" content="I wanted to start off by sharing how I set up this my …">
+  <meta name="description" content="I wanted to start off by sharing how I set up this my original homepage. I was impressed by how easy it was to do, especially since I&rsquo;m new to both Hugo and Cloudflare Pages.
 I followed the excellent documentation that Cloudflare provides. If you&rsquo;re not married to the idea of using Hugo, they also provide great documentation on other frameworks.
-One thing I missed the first time I pushed updates to my repo was setting the version of Hugo."><title>Setting Up Hugo on Cloudflare | Jonathan Nicholson</title>
-  <link rel="canonical" href="https://jnicholson.micro.blog/2022/05/27/setting-up-hugo-on-cloudflare.html">
+One thing I missed the first time I pushed updates to my repo was setting the version of Hugo.">
   
-    <link rel="stylesheet" href="/css/main.css?1743691520">
   
-  <link rel="stylesheet" href="/css/all.min.css?1743691520">
-  <link rel="alternate" href="https://jnicholson.micro.blog/feed.xml" type="application/rss+xml" title="Jonathan Nicholson">
-  <link rel="alternate" href="https://jnicholson.micro.blog/feed.json" type="application/json" title="Jonathan Nicholson">
+  <title>Setting Up Hugo on Cloudflare | Jonathan Nicholson</title>
+  <link rel="canonical" href="https://jnicholson.blog/2022/05/27/setting-up-hugo-on-cloudflare.html">
+  
+  <link rel="stylesheet" href="/css/main.css?1744807481">
+  
+  
+  <link rel="stylesheet" href="/css/all.min.css?1744807481">
+  
+  
+  <link rel="alternate" href="https://jnicholson.blog/feed.xml" type="application/rss+xml" title="Jonathan Nicholson">
+  <link rel="alternate" href="https://jnicholson.blog/feed.json" type="application/json" title="Jonathan Nicholson">
 
 
 
@@ -34,7 +42,7 @@ One thing I missed the first time I pushed updates to my repo was setting the ve
 
 
 <link rel="shortcut icon" href="https://micro.blog/jnicholson/favicon.png" type="image/x-icon">
-<link rel="EditURI" type="application/rsd+xml" href="https://jnicholson.micro.blog/rsd.xml">
+<link rel="EditURI" type="application/rsd+xml" href="https://jnicholson.blog/rsd.xml">
 <link rel="authorization_endpoint" href="https://micro.blog/indieauth/auth">
 <link rel="token_endpoint" href="https://micro.blog/indieauth/token">
 <link rel="subscribe" href="https://micro.blog/users/follow">
@@ -42,10 +50,12 @@ One thing I missed the first time I pushed updates to my repo was setting the ve
 <link rel="micropub" href="https://micro.blog/micropub">
 <link rel="microsub" href="https://micro.blog/microsub">
 
-<link rel="stylesheet" href="/custom.css?1743691520">
+<link rel="stylesheet" href="/custom.css?1744807481">
 
 
-  <link rel="stylesheet" href="/css/collections.css?1743700752">
+  <link rel="stylesheet" href="/css/collections.css?1744811112">
+
+  <link rel="stylesheet" href="/css/micro-masonry.css?1744811112">
 
 
 
@@ -195,17 +205,20 @@ One thing I missed the first time I pushed updates to my repo was setting the ve
 
 
 
+  
 </head>
 
 
 <body>
   <header class="site-header">
 	
-	<a href="/"><img src="https://www.gravatar.com/avatar/1204ff76ac656f596db0024bbfbc7e96?s=96&amp;d=https%3A%2F%2Fmicro.blog%2Fimages%2Fblank_avatar.png" alt="Jonathan Nicholson Profile Photo" class="profile_photo u-photo" width="80" height="80"></a>
+	<a href="/"><img src="https://avatars.micro.blog/avatars/2025/13/1750968.jpg" alt="Jonathan Nicholson Profile Photo" class="profile_photo u-photo" width="80" height="80"></a>
 	
 	
 	<h1><a class="site-title p-name u-url" href="/">Jonathan Nicholson</a></h1>
 	
+	
+	<p class="description"></p>
 	
 	
 	<nav class="site-nav">
@@ -225,11 +238,11 @@ One thing I missed the first time I pushed updates to my repo was setting the ve
 			
 			
 			
-			<li><a class="page-link Collections" href="/collections/">Collections</a></li>
+			<li><a class="page-link Replies" href="/replies/">Replies</a></li>
 			
 			
 			
-			<li><a class="page-link Reading" href="/reading/">Reading</a></li>
+			<li><a class="page-link Books" href="/books/">Books</a></li>
 			
 			
 			
@@ -242,23 +255,22 @@ One thing I missed the first time I pushed updates to my repo was setting the ve
   <div class="page-content">
     <div class="wrapper">
       
-<div class="post h-entry  cloudflare hugo static-site-generators">
+<div class="post h-entry  longform">
 
   
 
   <header class="post-header">
 
     
-    <div class="post-date-wrapper">
-    <time class="dt-published" datetime="2022-05-27 22:31:19 -0400">May 27, 2022</time>
-    </div>
+    <a href="https://jnicholson.blog/2022/05/27/setting-up-hugo-on-cloudflare.html" class="post-date u-url"><time class="dt-published" datetime="2022-05-27 22:31:19 -0400">May 27, 2022</time> ∞</a>
     
     
-    <h2 class="p-name post-title">Setting Up Hugo on Cloudflare</h2>
+    
+    <h2 class="p-name">Setting Up Hugo on Cloudflare</h2>
     
   </header>
 
-  <article class="post-content e-content with-title">
+  <article class="post-content e-content">
     <p>I wanted to start off by sharing how I set up this my original homepage. I was impressed by how easy it was to do, especially since I&rsquo;m new to both Hugo and Cloudflare Pages.</p>
 <p>I followed the <a href="https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/">excellent documentation</a> that Cloudflare provides. If you&rsquo;re not married to the idea of using Hugo, they also provide great documentation on <a href="https://developers.cloudflare.com/pages/framework-guides/">other frameworks</a>.</p>
 <p>One thing I missed the first time I pushed updates to my repo was <a href="https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/#using-a-specific-hugo-version">setting the version of Hugo</a>. The version that Hugo provides is older and didn&rsquo;t work with my chosen theme.</p>
@@ -266,32 +278,25 @@ One thing I missed the first time I pushed updates to my repo was setting the ve
   </article>
 
   
-
-</div>
-
-<div class="content-meta">
+  
+  <ul class="post-tags">
+     
+    <li><a href="https://jnicholson.blog/categories/longform">#Longform</a></li>
+    
+  </ul>
+  
   
 
-<ul class="post-tags">
-   
-  <li><a href="https://jnicholson.micro.blog/categories/cloudflare">cloudflare</a></li>
-   
-  <li><a href="https://jnicholson.micro.blog/categories/hugo">hugo</a></li>
-   
-  <li><a href="https://jnicholson.micro.blog/categories/static-site-generators">static site generators</a></li>
   
-</ul>
-
-
-
 
 </div>
 
 
 
-<div class="comments">
 
-</div>
+
+<script type="text/javascript" src="https://micro.blog/conversation.js?url=https%3a%2f%2fjnicholson.blog%2f2022%2f05%2f27%2fsetting-up-hugo-on-cloudflare.html"></script>
+
 
 
 
@@ -305,7 +310,7 @@ One thing I missed the first time I pushed updates to my repo was setting the ve
     
     <p class="custom_footer"></p>
     
-    <p class="attribution custom_footer">Hosted by <a href="https://micro.blog">Micro.blog</a>. Powered by <a href="https://sumo.micro.blog">Sumo Theme</a>. Designed with <span class="red">♥</span> by <a href="https://www.mattlangford.com">Matt Langford</a>.</p>
+    <p class="attribution custom_footer">Hosted by <a href="https://micro.blog">Micro.blog</a>. Powered by <a href="https://tiny.micro.blog">Tiny Theme</a>. Designed with ♥ by <a href="https://www.mattlangford.com">Matt Langford</a>.</p>
   </div>
 
 </footer>
@@ -314,12 +319,6 @@ One thing I missed the first time I pushed updates to my repo was setting the ve
   
 
   
-  <style>
-    quoteback-component {
-      display: block;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-  </style>
 </body>
+
 </html>

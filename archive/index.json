@@ -1,44 +1,3369 @@
 {
 	"version": "https://jsonfeed.org/version/1",
 	"title": "Jonathan Nicholson",
-	"icon": "https://www.gravatar.com/avatar/1204ff76ac656f596db0024bbfbc7e96?s=96&d=https%3A%2F%2Fmicro.blog%2Fimages%2Fblank_avatar.png",
-	"home_page_url": "https://jnicholson.micro.blog/",
-	"feed_url": "https://jnicholson.micro.blog/photos/index.json",
+	"icon": "https://avatars.micro.blog/avatars/2025/13/1750968.jpg",
+	"home_page_url": "https://jnicholson.blog/",
+	"feed_url": "https://jnicholson.blog/photos/index.json",
 	"items": [
 			{
-				"id": "https://jnicholson.micro.blog/2025/04/03/michigan-theater-enjoyed-seeing-explosions.html",
+				"id": "https://jnicholson.blog/2025/04/15/currently-reading-carls-doomsday-scenario.html",
+				"title": "",
+				"content_text": "Currently reading: Carl\u0026rsquo;s Doomsday Scenario by Matt Dinniman 📚\nContinuing the series. Been a …",
+				"date_published": "2025-04-15T18:25:37-04:00",
+				"url": "https://jnicholson.blog/2025/04/15/currently-reading-carls-doomsday-scenario.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2025/04/15/i-really-enjoyed-this-video.html",
+				"title": "",
+				"content_text": "I really enjoyed this video. The cinematography and music are just so good. …",
+				"date_published": "2025-04-15T13:25:26-04:00",
+				"url": "https://jnicholson.blog/2025/04/15/i-really-enjoyed-this-video.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2025/04/13/finished-reading-dungeon-crawler-carl.html",
+				"title": "",
+				"content_text": "Finished reading: Dungeon Crawler Carl by Matt Dinniman 📚\nEnjoyed this more as the book went on. It …",
+				"date_published": "2025-04-13T09:37:41-04:00",
+				"url": "https://jnicholson.blog/2025/04/13/finished-reading-dungeon-crawler-carl.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2025/04/07/questioning-why-i-ever-came.html",
+				"title": "",
+				"content_text": "Questioning why I ever came home from vacation as it’s now snowing here in Michigan…",
+				"date_published": "2025-04-07T13:13:31-04:00",
+				"url": "https://jnicholson.blog/2025/04/07/questioning-why-i-ever-came.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2025/04/05/we-have-a-bird-deer.html",
+				"title": "",
+				"content_text": "We have a bird, deer, and raccoon feeder (not necessarily in that order)",
+				"date_published": "2025-04-05T17:20:00-04:00",
+				"url": "https://jnicholson.blog/2025/04/05/we-have-a-bird-deer.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2025/04/03/michigan-theater-enjoyed-seeing-explosions.html",
 				"title": "",
 				"content_text": "Michigan Theater. 📍\nEnjoyed seeing Explosions in the Sky last night in Ann Arbor!",
 				"date_published": "2025-04-03T09:51:39-04:00",
-				"url": "https://jnicholson.micro.blog/2025/04/03/michigan-theater-enjoyed-seeing-explosions.html"
+				"url": "https://jnicholson.blog/2025/04/03/michigan-theater-enjoyed-seeing-explosions.html"
 			},
 			{
-				"id": "https://jnicholson.micro.blog/2025/04/01/brown-pelican-looking-for-some.html",
+				"id": "https://jnicholson.blog/2025/04/01/brown-pelican-looking-for-some.html",
 				"title": "",
 				"content_text": "A Brown Pelican is searching for food.",
 				"date_published": "2025-04-01T19:04:18-04:00",
-				"url": "https://jnicholson.micro.blog/2025/04/01/brown-pelican-looking-for-some.html"
+				"url": "https://jnicholson.blog/2025/04/01/brown-pelican-looking-for-some.html"
 			},
 			{
-				"id": "https://jnicholson.micro.blog/2023/06/18/how-i-use-tailscale.html",
+				"id": "https://jnicholson.blog/2024/11/01/165151.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2024-11-01T16:51:51-04:00",
+				"url": "https://jnicholson.blog/2024/11/01/165151.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2024/07/21/114926.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2024-07-21T11:49:26-04:00",
+				"url": "https://jnicholson.blog/2024/07/21/114926.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2024/03/26/172746.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2024-03-26T17:27:46-04:00",
+				"url": "https://jnicholson.blog/2024/03/26/172746.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2024/03/20/215107.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2024-03-20T21:51:07-04:00",
+				"url": "https://jnicholson.blog/2024/03/20/215107.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2023/09/15/220521.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2023-09-15T22:05:21-04:00",
+				"url": "https://jnicholson.blog/2023/09/15/220521.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2023/06/18/how-i-use-tailscale.html",
 				"title": "How I Use Tailscale",
-				"content_text": "What is it?  Tailscale is a VPN service that makes the devices and applications you own accessible …",
+				"content_text": "What is it? Tailscale is a VPN service that makes the devices and applications you own accessible …",
 				"date_published": "2023-06-18T17:44:03-04:00",
-				"url": "https://jnicholson.micro.blog/2023/06/18/how-i-use-tailscale.html"
+				"url": "https://jnicholson.blog/2023/06/18/how-i-use-tailscale.html"
 			},
 			{
-				"id": "https://jnicholson.micro.blog/2022/05/27/setting-up-hugo-on-cloudflare.html",
+				"id": "https://jnicholson.blog/2023/06/10/154847.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2023-06-10T15:48:47-04:00",
+				"url": "https://jnicholson.blog/2023/06/10/154847.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2023/06/05/234558.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2023-06-05T23:45:58-04:00",
+				"url": "https://jnicholson.blog/2023/06/05/234558.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2023/05/22/194827.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2023-05-22T19:48:27-04:00",
+				"url": "https://jnicholson.blog/2023/05/22/194827.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2023/05/22/174057.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2023-05-22T17:40:57-04:00",
+				"url": "https://jnicholson.blog/2023/05/22/174057.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2022/06/14/141155.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2022-06-14T14:11:55-04:00",
+				"url": "https://jnicholson.blog/2022/06/14/141155.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2022/05/30/102131.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2022-05-30T10:21:31-04:00",
+				"url": "https://jnicholson.blog/2022/05/30/102131.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2022/05/30/102030.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2022-05-30T10:20:30-04:00",
+				"url": "https://jnicholson.blog/2022/05/30/102030.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2022/05/27/setting-up-hugo-on-cloudflare.html",
 				"title": "Setting Up Hugo on Cloudflare",
 				"content_text": "I wanted to start off by sharing how I set up this my original homepage. I was impressed by how easy …",
 				"date_published": "2022-05-27T22:31:19-04:00",
-				"url": "https://jnicholson.micro.blog/2022/05/27/setting-up-hugo-on-cloudflare.html"
+				"url": "https://jnicholson.blog/2022/05/27/setting-up-hugo-on-cloudflare.html"
 			},
 			{
-				"id": "https://jnicholson.micro.blog/2022/05/16/hello-world.html",
+				"id": "https://jnicholson.blog/2022/05/26/131809.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2022-05-26T13:18:09-04:00",
+				"url": "https://jnicholson.blog/2022/05/26/131809.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2022/05/16/hello-world.html",
 				"title": "Hello World",
 				"content_text": "Console.Write(\u0026#34;hello world\u0026#34;); ",
 				"date_published": "2022-05-16T22:11:59-04:00",
-				"url": "https://jnicholson.micro.blog/2022/05/16/hello-world.html"
+				"url": "https://jnicholson.blog/2022/05/16/hello-world.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2022/05/12/221445.html",
+				"title": "",
+				"content_text": "Found a family of foxes in a den near my house",
+				"date_published": "2022-05-12T22:14:45-04:00",
+				"url": "https://jnicholson.blog/2022/05/12/221445.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2022/05/07/history-repeats-itself-almost-years.html",
+				"title": "",
+				"content_text": "History repeats itself almost 2 years to the day",
+				"date_published": "2022-05-07T13:06:43-04:00",
+				"url": "https://jnicholson.blog/2022/05/07/history-repeats-itself-almost-years.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2022/05/04/texas-is-growing-on-me.html",
+				"title": "",
+				"content_text": "Texas is growing on me",
+				"date_published": "2022-05-04T12:32:07-04:00",
+				"url": "https://jnicholson.blog/2022/05/04/texas-is-growing-on-me.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2022/05/02/170128.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2022-05-02T17:01:28-04:00",
+				"url": "https://jnicholson.blog/2022/05/02/170128.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2022/03/29/172213.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2022-03-29T17:22:13-04:00",
+				"url": "https://jnicholson.blog/2022/03/29/172213.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2021/10/17/064818.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2021-10-17T06:48:18-04:00",
+				"url": "https://jnicholson.blog/2021/10/17/064818.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2021/09/11/175055.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2021-09-11T17:50:55-04:00",
+				"url": "https://jnicholson.blog/2021/09/11/175055.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2021/09/11/he-did-not-like-getting.html",
+				"title": "",
+				"content_text": "He did not like getting told off for burying nuts in my flowerpot",
+				"date_published": "2021-09-11T17:48:10-04:00",
+				"url": "https://jnicholson.blog/2021/09/11/he-did-not-like-getting.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2021/07/07/my-dognephew-ryder-will-be.html",
+				"title": "",
+				"content_text": "My dog-nephew Ryder will be staying with me until mid-August, and he has agreed to be a good boy.",
+				"date_published": "2021-07-07T08:53:27-04:00",
+				"url": "https://jnicholson.blog/2021/07/07/my-dognephew-ryder-will-be.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2021/06/18/hello-curmudgeonly-friend.html",
+				"title": "",
+				"content_text": "Hello curmudgeonly friend",
+				"date_published": "2021-06-18T14:28:37-04:00",
+				"url": "https://jnicholson.blog/2021/06/18/hello-curmudgeonly-friend.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2021/06/01/122738.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2021-06-01T12:27:38-04:00",
+				"url": "https://jnicholson.blog/2021/06/01/122738.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2021/05/24/pardon-the-leg-but-i.html",
+				"title": "",
+				"content_text": "Pardon the leg but I had to show that this little guy was maybe two feet away from me.",
+				"date_published": "2021-05-24T20:30:13-04:00",
+				"url": "https://jnicholson.blog/2021/05/24/pardon-the-leg-but-i.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2021/05/17/first-irises-of-the-year.html",
+				"title": "",
+				"content_text": "First irises of the year!",
+				"date_published": "2021-05-17T18:26:12-04:00",
+				"url": "https://jnicholson.blog/2021/05/17/first-irises-of-the-year.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2021/05/16/trying-out-some-strawberry-plants.html",
+				"title": "",
+				"content_text": "Trying out some strawberry plants",
+				"date_published": "2021-05-16T20:51:13-04:00",
+				"url": "https://jnicholson.blog/2021/05/16/trying-out-some-strawberry-plants.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2021/04/27/191627.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2021-04-27T19:16:27-04:00",
+				"url": "https://jnicholson.blog/2021/04/27/191627.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2021/04/23/the-saga-continues.html",
+				"title": "",
+				"content_text": "The saga continues",
+				"date_published": "2021-04-23T11:57:09-04:00",
+				"url": "https://jnicholson.blog/2021/04/23/the-saga-continues.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2021/04/06/twilight-robin.html",
+				"title": "",
+				"content_text": "Twilight Robin",
+				"date_published": "2021-04-06T20:57:43-04:00",
+				"url": "https://jnicholson.blog/2021/04/06/twilight-robin.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2021/04/06/im-thinking-this-is-a.html",
+				"title": "",
+				"content_text": "Iâm thinking this is a dark eyed junco.",
+				"date_published": "2021-04-06T20:54:34-04:00",
+				"url": "https://jnicholson.blog/2021/04/06/im-thinking-this-is-a.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2021/03/21/135032.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2021-03-21T13:50:32-04:00",
+				"url": "https://jnicholson.blog/2021/03/21/135032.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2021/03/04/last-sunset-on-sanibel-for.html",
+				"title": "",
+				"content_text": "Last sunset on Sanibel for the year",
+				"date_published": "2021-03-04T22:31:51-04:00",
+				"url": "https://jnicholson.blog/2021/03/04/last-sunset-on-sanibel-for.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/12/03/doesnt-do-it-justice.html",
+				"title": "",
+				"content_text": "Doesnât do it justice",
+				"date_published": "2020-12-03T18:12:57-04:00",
+				"url": "https://jnicholson.blog/2020/12/03/doesnt-do-it-justice.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/11/28/180323.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-11-28T18:03:23-04:00",
+				"url": "https://jnicholson.blog/2020/11/28/180323.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/11/09/good-morning-happy-monday.html",
+				"title": "",
+				"content_text": "Good morning! Happy Monday!",
+				"date_published": "2020-11-09T08:10:59-04:00",
+				"url": "https://jnicholson.blog/2020/11/09/good-morning-happy-monday.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/10/25/154613.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-10-25T15:46:13-04:00",
+				"url": "https://jnicholson.blog/2020/10/25/154613.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/10/23/175329.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-10-23T17:53:29-04:00",
+				"url": "https://jnicholson.blog/2020/10/23/175329.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/10/23/175224.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-10-23T17:52:24-04:00",
+				"url": "https://jnicholson.blog/2020/10/23/175224.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/10/23/175126.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-10-23T17:51:26-04:00",
+				"url": "https://jnicholson.blog/2020/10/23/175126.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/10/20/210250.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-10-20T21:02:50-04:00",
+				"url": "https://jnicholson.blog/2020/10/20/210250.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/10/20/here-goes-nothing.html",
+				"title": "",
+				"content_text": "Here goes nothing",
+				"date_published": "2020-10-20T12:41:55-04:00",
+				"url": "https://jnicholson.blog/2020/10/20/here-goes-nothing.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/10/19/081458.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-10-19T08:14:58-04:00",
+				"url": "https://jnicholson.blog/2020/10/19/081458.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/10/17/just-one-more-manistee-river.html",
+				"title": "",
+				"content_text": "Just one more Manistee River Trail photo",
+				"date_published": "2020-10-17T22:53:48-04:00",
+				"url": "https://jnicholson.blog/2020/10/17/just-one-more-manistee-river.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/10/17/225311.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-10-17T22:53:11-04:00",
+				"url": "https://jnicholson.blog/2020/10/17/225311.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/10/17/225112.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-10-17T22:51:12-04:00",
+				"url": "https://jnicholson.blog/2020/10/17/225112.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/10/17/224012.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-10-17T22:40:12-04:00",
+				"url": "https://jnicholson.blog/2020/10/17/224012.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/10/05/battleship-row.html",
+				"title": "",
+				"content_text": "Battleship row",
+				"date_published": "2020-10-05T18:38:20-04:00",
+				"url": "https://jnicholson.blog/2020/10/05/battleship-row.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/10/03/210857.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-10-03T21:08:57-04:00",
+				"url": "https://jnicholson.blog/2020/10/03/210857.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/10/03/pure-michigan.html",
+				"title": "",
+				"content_text": "Pure Michigan",
+				"date_published": "2020-10-03T19:40:30-04:00",
+				"url": "https://jnicholson.blog/2020/10/03/pure-michigan.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/10/03/breakfast.html",
+				"title": "",
+				"content_text": "Breakfast.",
+				"date_published": "2020-10-03T09:38:03-04:00",
+				"url": "https://jnicholson.blog/2020/10/03/breakfast.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/10/02/campsite-number-one-not-much.html",
+				"title": "",
+				"content_text": "Campsite number one. Not much you can do when you show up at midnight and there are no open spots.",
+				"date_published": "2020-10-02T08:37:24-04:00",
+				"url": "https://jnicholson.blog/2020/10/02/campsite-number-one-not-much.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/10/01/hello-october.html",
+				"title": "",
+				"content_text": "Hello, October.",
+				"date_published": "2020-10-01T07:54:19-04:00",
+				"url": "https://jnicholson.blog/2020/10/01/hello-october.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/09/26/151527.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-09-26T15:15:27-04:00",
+				"url": "https://jnicholson.blog/2020/09/26/151527.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/09/24/182918.html",
+				"title": "",
+				"content_text": "ð",
+				"date_published": "2020-09-24T18:29:18-04:00",
+				"url": "https://jnicholson.blog/2020/09/24/182918.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/09/23/goooooood-morning.html",
+				"title": "",
+				"content_text": "Goooooood morning",
+				"date_published": "2020-09-23T07:42:44-04:00",
+				"url": "https://jnicholson.blog/2020/09/23/goooooood-morning.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/09/15/california-isnt-the-only-place.html",
+				"title": "",
+				"content_text": "California isnât the only place whose sky is affected by the fires. Take a look at this site for …",
+				"date_published": "2020-09-15T18:05:12-04:00",
+				"url": "https://jnicholson.blog/2020/09/15/california-isnt-the-only-place.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/09/02/what-a-sky.html",
+				"title": "",
+				"content_text": "What a sky",
+				"date_published": "2020-09-02T20:22:05-04:00",
+				"url": "https://jnicholson.blog/2020/09/02/what-a-sky.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/09/02/194444.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-09-02T19:44:44-04:00",
+				"url": "https://jnicholson.blog/2020/09/02/194444.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/08/28/moon.html",
+				"title": "",
+				"content_text": "moon.",
+				"date_published": "2020-08-28T22:43:41-04:00",
+				"url": "https://jnicholson.blog/2020/08/28/moon.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/08/23/sunday-vibes.html",
+				"title": "",
+				"content_text": "Sunday vibes",
+				"date_published": "2020-08-23T14:28:40-04:00",
+				"url": "https://jnicholson.blog/2020/08/23/sunday-vibes.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/08/23/what-are-you-looking-at.html",
+				"title": "",
+				"content_text": "what are you looking at?",
+				"date_published": "2020-08-23T10:49:20-04:00",
+				"url": "https://jnicholson.blog/2020/08/23/what-are-you-looking-at.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/08/21/203841.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-08-21T20:38:41-04:00",
+				"url": "https://jnicholson.blog/2020/08/21/203841.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/08/06/131351.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-08-06T13:13:51-04:00",
+				"url": "https://jnicholson.blog/2020/08/06/131351.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/08/05/181112.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-08-05T18:11:12-04:00",
+				"url": "https://jnicholson.blog/2020/08/05/181112.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/08/04/200101.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-08-04T20:01:01-04:00",
+				"url": "https://jnicholson.blog/2020/08/04/200101.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/07/31/its-just-one-of-those.html",
+				"title": "",
+				"content_text": "Itâs just one of those evenings",
+				"date_published": "2020-07-31T19:35:40-04:00",
+				"url": "https://jnicholson.blog/2020/07/31/its-just-one-of-those.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/07/30/192951.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-07-30T19:29:51-04:00",
+				"url": "https://jnicholson.blog/2020/07/30/192951.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/07/27/caught-her-enjoying-one-of.html",
+				"title": "",
+				"content_text": "Caught her enjoying one of my hibiscuses. She was very patient and let me run inside to get my …",
+				"date_published": "2020-07-27T18:10:15-04:00",
+				"url": "https://jnicholson.blog/2020/07/27/caught-her-enjoying-one-of.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/07/27/jaali.html",
+				"title": "",
+				"content_text": "Jaali",
+				"date_published": "2020-07-27T17:36:41-04:00",
+				"url": "https://jnicholson.blog/2020/07/27/jaali.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/07/24/yield-to-pedestrians-in-the.html",
+				"title": "",
+				"content_text": "yield to pedestrians in the crosswalk",
+				"date_published": "2020-07-24T07:53:47-04:00",
+				"url": "https://jnicholson.blog/2020/07/24/yield-to-pedestrians-in-the.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/07/23/new-lens-who-dis.html",
+				"title": "",
+				"content_text": "new lens who dis",
+				"date_published": "2020-07-23T16:54:27-04:00",
+				"url": "https://jnicholson.blog/2020/07/23/new-lens-who-dis.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/07/19/oh-deer.html",
+				"title": "",
+				"content_text": "Oh deer",
+				"date_published": "2020-07-19T20:37:46-04:00",
+				"url": "https://jnicholson.blog/2020/07/19/oh-deer.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/07/13/so-many-daisies.html",
+				"title": "",
+				"content_text": "So many daisies",
+				"date_published": "2020-07-13T22:57:20-04:00",
+				"url": "https://jnicholson.blog/2020/07/13/so-many-daisies.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/07/13/075530.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-07-13T07:55:30-04:00",
+				"url": "https://jnicholson.blog/2020/07/13/075530.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/07/10/lots-of-potential.html",
+				"title": "",
+				"content_text": "Lots of potential",
+				"date_published": "2020-07-10T08:53:50-04:00",
+				"url": "https://jnicholson.blog/2020/07/10/lots-of-potential.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/07/09/good-morning.html",
+				"title": "",
+				"content_text": "Good morning!",
+				"date_published": "2020-07-09T08:14:26-04:00",
+				"url": "https://jnicholson.blog/2020/07/09/good-morning.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/07/07/i-knew-you-werent-a.html",
+				"title": "",
+				"content_text": "I knew you werenât a weed",
+				"date_published": "2020-07-07T20:41:54-04:00",
+				"url": "https://jnicholson.blog/2020/07/07/i-knew-you-werent-a.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/07/06/thanks-for-fixing-my-vase.html",
+				"title": "",
+				"content_text": "Thanks for fixing my vase arrangement Abigail!",
+				"date_published": "2020-07-06T08:13:33-04:00",
+				"url": "https://jnicholson.blog/2020/07/06/thanks-for-fixing-my-vase.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/06/21/214748.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-06-21T21:47:48-04:00",
+				"url": "https://jnicholson.blog/2020/06/21/214748.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/06/21/212700.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-06-21T21:27:00-04:00",
+				"url": "https://jnicholson.blog/2020/06/21/212700.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/06/20/191957.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-06-20T19:19:57-04:00",
+				"url": "https://jnicholson.blog/2020/06/20/191957.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/06/20/catalpa-or-cigar-tree-blossom.html",
+				"title": "",
+				"content_text": "Catalpa or cigar tree blossom",
+				"date_published": "2020-06-20T16:36:55-04:00",
+				"url": "https://jnicholson.blog/2020/06/20/catalpa-or-cigar-tree-blossom.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/06/10/moody.html",
+				"title": "",
+				"content_text": "moody",
+				"date_published": "2020-06-10T19:41:04-04:00",
+				"url": "https://jnicholson.blog/2020/06/10/moody.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/06/10/194031.html",
+				"title": "",
+				"content_text": "We were friends until my shutter fired.",
+				"date_published": "2020-06-10T19:40:31-04:00",
+				"url": "https://jnicholson.blog/2020/06/10/194031.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/06/10/193936.html",
+				"title": "",
+				"content_text": "#aphotoadayjune",
+				"date_published": "2020-06-10T19:39:36-04:00",
+				"url": "https://jnicholson.blog/2020/06/10/193936.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/06/05/210925.html",
+				"title": "",
+				"content_text": "#aphotoadayjune",
+				"date_published": "2020-06-05T21:09:25-04:00",
+				"url": "https://jnicholson.blog/2020/06/05/210925.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/06/03/082611.html",
+				"title": "",
+				"content_text": "Guess who has peonies??? Iâll have some pink / purples ones here too in the next couple of days. …",
+				"date_published": "2020-06-03T08:26:11-04:00",
+				"url": "https://jnicholson.blog/2020/06/03/082611.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/06/01/152948.html",
+				"title": "",
+				"content_text": "My cubicle neighbor was not thrilled to see he got caught snacking before dinner. #aphotosdaymay",
+				"date_published": "2020-06-01T15:29:48-04:00",
+				"url": "https://jnicholson.blog/2020/06/01/152948.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/05/29/201912.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-05-29T20:19:12-04:00",
+				"url": "https://jnicholson.blog/2020/05/29/201912.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/05/29/irises-be-bloomin-aphotoadaymay.html",
+				"title": "",
+				"content_text": "Irises be bloomin #aphotoadaymay",
+				"date_published": "2020-05-29T20:07:08-04:00",
+				"url": "https://jnicholson.blog/2020/05/29/irises-be-bloomin-aphotoadaymay.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/05/27/185430.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-05-27T18:54:30-04:00",
+				"url": "https://jnicholson.blog/2020/05/27/185430.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/05/27/183433.html",
+				"title": "",
+				"content_text": "Itâs coming. #aphotadaymay",
+				"date_published": "2020-05-27T18:34:33-04:00",
+				"url": "https://jnicholson.blog/2020/05/27/183433.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/05/27/its-coming-aphotadaymay.html",
+				"title": "",
+				"content_text": "Itâs coming. #aphotadaymay",
+				"date_published": "2020-05-27T18:34:33-04:00",
+				"url": "https://jnicholson.blog/2020/05/27/its-coming-aphotadaymay.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/05/21/aphotoadaymay.html",
+				"title": "",
+				"content_text": "#aphotoadaymay",
+				"date_published": "2020-05-21T18:21:48-04:00",
+				"url": "https://jnicholson.blog/2020/05/21/aphotoadaymay.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/05/20/apparently-i-i-need-a.html",
+				"title": "",
+				"content_text": "Apparently I I need a bigger battery (or two). #aphotoadaymay",
+				"date_published": "2020-05-20T18:44:42-04:00",
+				"url": "https://jnicholson.blog/2020/05/20/apparently-i-i-need-a.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/05/17/095727.html",
+				"title": "",
+				"content_text": "Theyâre getting bigger! #aphotoadaymay",
+				"date_published": "2020-05-17T09:57:27-04:00",
+				"url": "https://jnicholson.blog/2020/05/17/095727.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/05/17/its-not-perfect-yet-but.html",
+				"title": "",
+				"content_text": "Itâs not perfect yet, but Iâm thrilled to have my home wired network up and running! Learned a …",
+				"date_published": "2020-05-17T01:20:17-04:00",
+				"url": "https://jnicholson.blog/2020/05/17/its-not-perfect-yet-but.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/05/15/191354.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-05-15T19:13:54-04:00",
+				"url": "https://jnicholson.blog/2020/05/15/191354.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/05/15/191215.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-05-15T19:12:15-04:00",
+				"url": "https://jnicholson.blog/2020/05/15/191215.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/05/13/huey-louie-duey-and-gus.html",
+				"title": "",
+				"content_text": "Huey, Louie, Duey, and Gus (I think) have all been safely hatched. Their momma did not approve of …",
+				"date_published": "2020-05-13T20:05:35-04:00",
+				"url": "https://jnicholson.blog/2020/05/13/huey-louie-duey-and-gus.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/05/07/anyone-want-any-roving-lilies.html",
+				"title": "",
+				"content_text": "Anyone want any roving lilies? I have plenty go around. #aphotoadaymay",
+				"date_published": "2020-05-07T11:31:54-04:00",
+				"url": "https://jnicholson.blog/2020/05/07/anyone-want-any-roving-lilies.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/05/05/feliz-cinco-de-mayo-aphotoadaymay.html",
+				"title": "",
+				"content_text": "Feliz Cinco de Mayo! #aphotoadaymay",
+				"date_published": "2020-05-05T19:02:03-04:00",
+				"url": "https://jnicholson.blog/2020/05/05/feliz-cinco-de-mayo-aphotoadaymay.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/05/03/does-this-count-as-a.html",
+				"title": "",
+				"content_text": "Does this count as a splash of color in an unusual place? @paige.sharon #aphotoadaymay",
+				"date_published": "2020-05-03T19:41:09-04:00",
+				"url": "https://jnicholson.blog/2020/05/03/does-this-count-as-a.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/05/03/i-have-some-new-housemates.html",
+				"title": "",
+				"content_text": "I have some new housemates on the way! Huey, Duey, Louie, and Gus. #aphotoadaymay",
+				"date_published": "2020-05-03T19:31:10-04:00",
+				"url": "https://jnicholson.blog/2020/05/03/i-have-some-new-housemates.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/05/03/today-was-a-good-day.html",
+				"title": "",
+				"content_text": "Today was a good day. Socially-distance socialized with some friends, finally made progress on a …",
+				"date_published": "2020-05-03T01:06:36-04:00",
+				"url": "https://jnicholson.blog/2020/05/03/today-was-a-good-day.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/05/02/best-day-of-the-yearso.html",
+				"title": "",
+				"content_text": "Best day of the yearâso far. #aphotoadaymay",
+				"date_published": "2020-05-02T00:03:53-04:00",
+				"url": "https://jnicholson.blog/2020/05/02/best-day-of-the-yearso.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/30/im-going-to-go-out.html",
+				"title": "",
+				"content_text": "I\u0026rsquo;m going to go out on a limb and say that they are camera shy. Or they weren\u0026rsquo;t dressed …",
+				"date_published": "2020-04-30T23:55:46-04:00",
+				"url": "https://jnicholson.blog/2020/04/30/im-going-to-go-out.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/29/momma-doubling-as-a-pillow.html",
+				"title": "",
+				"content_text": "Momma doubling as a pillow and a tent. #aphotoadayapril",
+				"date_published": "2020-04-29T23:04:32-04:00",
+				"url": "https://jnicholson.blog/2020/04/29/momma-doubling-as-a-pillow.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/27/234858.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-04-27T23:48:58-04:00",
+				"url": "https://jnicholson.blog/2020/04/27/234858.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/26/234527.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-04-26T23:45:27-04:00",
+				"url": "https://jnicholson.blog/2020/04/26/234527.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/24/200132.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-04-24T20:01:32-04:00",
+				"url": "https://jnicholson.blog/2020/04/24/200132.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/24/195001.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-04-24T19:50:01-04:00",
+				"url": "https://jnicholson.blog/2020/04/24/195001.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/23/this-one-and-its-partner.html",
+				"title": "",
+				"content_text": "This one and its partner landed right outside my office for a split second. I didn\u0026rsquo;t get the …",
+				"date_published": "2020-04-23T22:25:56-04:00",
+				"url": "https://jnicholson.blog/2020/04/23/this-one-and-its-partner.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/22/this-tree-better-bloom-whole.html",
+				"title": "",
+				"content_text": "This tree better bloom. Whole reason I bought the house across the street from it. All the flowers …",
+				"date_published": "2020-04-22T18:29:54-04:00",
+				"url": "https://jnicholson.blog/2020/04/22/this-tree-better-bloom-whole.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/21/193804.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-04-21T19:38:04-04:00",
+				"url": "https://jnicholson.blog/2020/04/21/193804.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/21/im-sorry-i-implied-two.html",
+				"title": "",
+				"content_text": "I\u0026rsquo;m sorry I Implied two days in a row was a special occasion, Michigan. You\u0026rsquo;ve made your …",
+				"date_published": "2020-04-21T07:47:59-04:00",
+				"url": "https://jnicholson.blog/2020/04/21/im-sorry-i-implied-two.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/20/two-beautiful-days-in-a.html",
+				"title": "",
+				"content_text": "Two beautiful days in a row? I will take it, Michigan. #aphotoadayapril",
+				"date_published": "2020-04-20T19:56:12-04:00",
+				"url": "https://jnicholson.blog/2020/04/20/two-beautiful-days-in-a.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/19/175149.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-04-19T17:51:49-04:00",
+				"url": "https://jnicholson.blog/2020/04/19/175149.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/19/175030.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-04-19T17:50:30-04:00",
+				"url": "https://jnicholson.blog/2020/04/19/175030.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/17/at-least-its-not-snow.html",
+				"title": "",
+				"content_text": "At least it\u0026rsquo;s not snow #aphotoadayapril",
+				"date_published": "2020-04-17T19:46:10-04:00",
+				"url": "https://jnicholson.blog/2020/04/17/at-least-its-not-snow.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/16/spring-is-in-the-air.html",
+				"title": "",
+				"content_text": "Spring is in the air. #aphotoadayapril",
+				"date_published": "2020-04-16T19:45:20-04:00",
+				"url": "https://jnicholson.blog/2020/04/16/spring-is-in-the-air.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/14/reusing-old-subjects-for-new.html",
+				"title": "",
+				"content_text": "Reusing old subjects for new material, but Iâm gonna use it til I lose it. #aphotoadayapril",
+				"date_published": "2020-04-14T19:49:20-04:00",
+				"url": "https://jnicholson.blog/2020/04/14/reusing-old-subjects-for-new.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/14/the-snow-and-buds-just.html",
+				"title": "",
+				"content_text": "The snow and buds just keep falling. #puremichigan #aphotoadayapril",
+				"date_published": "2020-04-14T19:46:23-04:00",
+				"url": "https://jnicholson.blog/2020/04/14/the-snow-and-buds-just.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/13/almost-aphotoadayapril.html",
+				"title": "",
+				"content_text": "Almost. #aphotoadayapril",
+				"date_published": "2020-04-13T23:59:24-04:00",
+				"url": "https://jnicholson.blog/2020/04/13/almost-aphotoadayapril.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/12/despite-the-fact-the-weather.html",
+				"title": "",
+				"content_text": "Despite the fact the weather canât decide what season it is, it is still spring. #aphotoadayapril",
+				"date_published": "2020-04-12T19:06:57-04:00",
+				"url": "https://jnicholson.blog/2020/04/12/despite-the-fact-the-weather.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/11/234830.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-04-11T23:48:30-04:00",
+				"url": "https://jnicholson.blog/2020/04/11/234830.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/11/im-thinking-these-will-look.html",
+				"title": "",
+				"content_text": "Iâm thinking these will look a lot more interesting in a couple of days. Again I have no idea what …",
+				"date_published": "2020-04-11T00:26:14-04:00",
+				"url": "https://jnicholson.blog/2020/04/11/im-thinking-these-will-look.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/09/174858.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-04-09T17:48:58-04:00",
+				"url": "https://jnicholson.blog/2020/04/09/174858.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/08/my-creeping-myrtle-is-blooming.html",
+				"title": "",
+				"content_text": "My creeping myrtle is blooming now and winter aconite is all done. Daffodils are still in and so …",
+				"date_published": "2020-04-08T19:39:47-04:00",
+				"url": "https://jnicholson.blog/2020/04/08/my-creeping-myrtle-is-blooming.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/07/when-you-just-need-that.html",
+				"title": "",
+				"content_text": "When you just need that ice cream and a good walk in the sun. Yes I cheated today and this was taken …",
+				"date_published": "2020-04-07T20:10:53-04:00",
+				"url": "https://jnicholson.blog/2020/04/07/when-you-just-need-that.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/06/191304.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-04-06T19:13:04-04:00",
+				"url": "https://jnicholson.blog/2020/04/06/191304.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/05/shes-still-there-i-was.html",
+				"title": "",
+				"content_text": "She\u0026rsquo;s still there! I was worried when I hadn\u0026rsquo;t seen her in a few days that she had …",
+				"date_published": "2020-04-05T20:05:12-04:00",
+				"url": "https://jnicholson.blog/2020/04/05/shes-still-there-i-was.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/05/155331.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-04-05T15:53:31-04:00",
+				"url": "https://jnicholson.blog/2020/04/05/155331.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/04/daffodils-aphotoadayapril.html",
+				"title": "",
+				"content_text": "Daffodils! #aphotoadayapril",
+				"date_published": "2020-04-04T19:11:14-04:00",
+				"url": "https://jnicholson.blog/2020/04/04/daffodils-aphotoadayapril.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/03/even-when-things-are-looking.html",
+				"title": "",
+				"content_text": "Even when things are looking up, itâs sometimes worth it to look down. I donât know what that …",
+				"date_published": "2020-04-03T12:47:06-04:00",
+				"url": "https://jnicholson.blog/2020/04/03/even-when-things-are-looking.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/03/things-are-looking-up-in.html",
+				"title": "",
+				"content_text": "Things are looking up in my backyard #aphotoadayapril",
+				"date_published": "2020-04-03T12:45:30-04:00",
+				"url": "https://jnicholson.blog/2020/04/03/things-are-looking-up-in.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/02/aphotoadayapril.html",
+				"title": "",
+				"content_text": "#aphotoadayapril",
+				"date_published": "2020-04-02T23:23:49-04:00",
+				"url": "https://jnicholson.blog/2020/04/02/aphotoadayapril.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/04/01/oh-hi-there.html",
+				"title": "",
+				"content_text": "Oh hi there",
+				"date_published": "2020-04-01T22:58:54-04:00",
+				"url": "https://jnicholson.blog/2020/04/01/oh-hi-there.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/03/31/191352.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-03-31T19:13:52-04:00",
+				"url": "https://jnicholson.blog/2020/03/31/191352.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/03/25/133029.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-03-25T13:30:29-04:00",
+				"url": "https://jnicholson.blog/2020/03/25/133029.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/03/25/i-think-i-received-a.html",
+				"title": "",
+				"content_text": "I think I received a visit from a Merlin this morning.",
+				"date_published": "2020-03-25T11:17:42-04:00",
+				"url": "https://jnicholson.blog/2020/03/25/i-think-i-received-a.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/03/22/190421.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-03-22T19:04:21-04:00",
+				"url": "https://jnicholson.blog/2020/03/22/190421.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/03/14/had-a-friendly-visitor-named.html",
+				"title": "",
+				"content_text": "Had a friendly visitor named Ned this evening.",
+				"date_published": "2020-03-14T20:45:50-04:00",
+				"url": "https://jnicholson.blog/2020/03/14/had-a-friendly-visitor-named.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/03/06/215826.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-03-06T21:58:26-04:00",
+				"url": "https://jnicholson.blog/2020/03/06/215826.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/03/06/122843.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-03-06T12:28:43-04:00",
+				"url": "https://jnicholson.blog/2020/03/06/122843.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/03/06/last-day-here-and-im.html",
+				"title": "",
+				"content_text": "Last day here, and Iâm resorting to hot tea to stay warm. Can you believe it hasnât even hit 70 …",
+				"date_published": "2020-03-06T11:26:26-04:00",
+				"url": "https://jnicholson.blog/2020/03/06/last-day-here-and-im.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/03/06/not-much-of-a-sunrise.html",
+				"title": "",
+				"content_text": "Not much of a sunrise to see on my last day on the island, but it was a nice refreshing scurry to …",
+				"date_published": "2020-03-06T07:54:03-04:00",
+				"url": "https://jnicholson.blog/2020/03/06/not-much-of-a-sunrise.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/03/05/so-much-noise-so-not.html",
+				"title": "",
+				"content_text": "So much noise. So not on purpose. Just imagine it without the snowstorm and youâd be left with …",
+				"date_published": "2020-03-05T21:23:37-04:00",
+				"url": "https://jnicholson.blog/2020/03/05/so-much-noise-so-not.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/03/05/162605.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-03-05T16:26:05-04:00",
+				"url": "https://jnicholson.blog/2020/03/05/162605.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/03/05/this-is-a-donax-a.html",
+				"title": "",
+				"content_text": "This is a Donax, a genus of small edible saltwater clams. Namesake of one of the streets on the …",
+				"date_published": "2020-03-05T12:52:00-04:00",
+				"url": "https://jnicholson.blog/2020/03/05/this-is-a-donax-a.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/03/04/115811.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-03-04T11:58:11-04:00",
+				"url": "https://jnicholson.blog/2020/03/04/115811.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/03/03/175136.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-03-03T17:51:36-04:00",
+				"url": "https://jnicholson.blog/2020/03/03/175136.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/03/03/165639.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-03-03T16:56:39-04:00",
+				"url": "https://jnicholson.blog/2020/03/03/165639.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/03/02/my-parents-haul-for-the.html",
+				"title": "",
+				"content_text": "My parentsâ haul for the last week.",
+				"date_published": "2020-03-02T21:05:24-04:00",
+				"url": "https://jnicholson.blog/2020/03/02/my-parents-haul-for-the.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/03/02/whats-a-vacation-without-a.html",
+				"title": "",
+				"content_text": "What\u0026rsquo;s a vacation without a food photo? My first shrimp étouffée. It was amazing.",
+				"date_published": "2020-03-02T20:25:37-04:00",
+				"url": "https://jnicholson.blog/2020/03/02/whats-a-vacation-without-a.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/03/01/193307.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-03-01T19:33:07-04:00",
+				"url": "https://jnicholson.blog/2020/03/01/193307.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2020/03/01/190204.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2020-03-01T19:02:04-04:00",
+				"url": "https://jnicholson.blog/2020/03/01/190204.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2019/10/27/202918.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2019-10-27T20:29:18-04:00",
+				"url": "https://jnicholson.blog/2019/10/27/202918.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2019/08/18/good-morning-lake-lansing-getting.html",
+				"title": "",
+				"content_text": "Good morning, Lake Lansing! Getting ready for the Lake Lansing Team Relay!",
+				"date_published": "2019-08-18T07:57:19-04:00",
+				"url": "https://jnicholson.blog/2019/08/18/good-morning-lake-lansing-getting.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2019/08/01/first-ride-with-a-new.html",
+				"title": "",
+				"content_text": "First ride with a new shoulder!!!! (and since September 2018). I donât know that I can fully …",
+				"date_published": "2019-08-01T21:05:33-04:00",
+				"url": "https://jnicholson.blog/2019/08/01/first-ride-with-a-new.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2019/06/15/095157.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2019-06-15T09:51:57-04:00",
+				"url": "https://jnicholson.blog/2019/06/15/095157.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2019/05/15/shadow-of-the-contrail.html",
+				"title": "",
+				"content_text": "Shadow of the contrail!",
+				"date_published": "2019-05-15T19:08:51-04:00",
+				"url": "https://jnicholson.blog/2019/05/15/shadow-of-the-contrail.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2019/05/13/red-buds.html",
+				"title": "",
+				"content_text": "Red buds!",
+				"date_published": "2019-05-13T19:39:13-04:00",
+				"url": "https://jnicholson.blog/2019/05/13/red-buds.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2019/05/06/183655.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2019-05-06T18:36:55-04:00",
+				"url": "https://jnicholson.blog/2019/05/06/183655.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2019/05/01/are-you-lost.html",
+				"title": "",
+				"content_text": "Are you lost?",
+				"date_published": "2019-05-01T19:14:33-04:00",
+				"url": "https://jnicholson.blog/2019/05/01/are-you-lost.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2019/04/27/172047.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2019-04-27T17:20:47-04:00",
+				"url": "https://jnicholson.blog/2019/04/27/172047.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2019/04/08/wakey-wakey.html",
+				"title": "",
+				"content_text": "Wakey wakey",
+				"date_published": "2019-04-08T12:40:24-04:00",
+				"url": "https://jnicholson.blog/2019/04/08/wakey-wakey.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2019/04/08/123044.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2019-04-08T12:30:44-04:00",
+				"url": "https://jnicholson.blog/2019/04/08/123044.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2019/04/08/gray-gray-gray.html",
+				"title": "",
+				"content_text": "Gray gray gray",
+				"date_published": "2019-04-08T12:26:32-04:00",
+				"url": "https://jnicholson.blog/2019/04/08/gray-gray-gray.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2019/04/07/it-feels-nicer-than-it.html",
+				"title": "",
+				"content_text": "It feels nicer than it looks.",
+				"date_published": "2019-04-07T15:15:28-04:00",
+				"url": "https://jnicholson.blog/2019/04/07/it-feels-nicer-than-it.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2019/04/03/had-some-slightly-quieter-walking.html",
+				"title": "",
+				"content_text": "Had some slightly quieter walking companions today.",
+				"date_published": "2019-04-03T14:03:41-04:00",
+				"url": "https://jnicholson.blog/2019/04/03/had-some-slightly-quieter-walking.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2019/04/01/wish-me-luck.html",
+				"title": "",
+				"content_text": "Wish me luck.",
+				"date_published": "2019-04-01T14:41:33-04:00",
+				"url": "https://jnicholson.blog/2019/04/01/wish-me-luck.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2019/03/29/it-is-too-nice-out.html",
+				"title": "",
+				"content_text": "It is too nice out to stay cooped up all day.",
+				"date_published": "2019-03-29T15:49:36-04:00",
+				"url": "https://jnicholson.blog/2019/03/29/it-is-too-nice-out.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2018/09/29/173425.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2018-09-29T17:34:25-04:00",
+				"url": "https://jnicholson.blog/2018/09/29/173425.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2018/09/29/this-one-got-my-vote.html",
+				"title": "",
+				"content_text": "This one got my vote. #artprize2018",
+				"date_published": "2018-09-29T15:09:49-04:00",
+				"url": "https://jnicholson.blog/2018/09/29/this-one-got-my-vote.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2018/09/29/artprize.html",
+				"title": "",
+				"content_text": "#artprize2018",
+				"date_published": "2018-09-29T15:09:15-04:00",
+				"url": "https://jnicholson.blog/2018/09/29/artprize.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2018/09/29/coffee-artprize.html",
+				"title": "",
+				"content_text": "Coffee!! #artprize2018",
+				"date_published": "2018-09-29T14:51:38-04:00",
+				"url": "https://jnicholson.blog/2018/09/29/coffee-artprize.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2018/07/06/bachelor-party-brogettinghitched.html",
+				"title": "",
+				"content_text": "Bachelor party. #brogettinghitched",
+				"date_published": "2018-07-06T20:43:32-04:00",
+				"url": "https://jnicholson.blog/2018/07/06/bachelor-party-brogettinghitched.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2018/05/28/092959.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2018-05-28T09:29:59-04:00",
+				"url": "https://jnicholson.blog/2018/05/28/092959.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2018/03/04/143402.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2018-03-04T14:34:02-04:00",
+				"url": "https://jnicholson.blog/2018/03/04/143402.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/11/25/135542.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-11-25T13:55:42-04:00",
+				"url": "https://jnicholson.blog/2017/11/25/135542.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/10/24/day.html",
+				"title": "",
+				"content_text": "Day 3",
+				"date_published": "2017-10-24T16:29:13-04:00",
+				"url": "https://jnicholson.blog/2017/10/24/day.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/10/23/day.html",
+				"title": "",
+				"content_text": "Day 2.",
+				"date_published": "2017-10-23T11:32:07-04:00",
+				"url": "https://jnicholson.blog/2017/10/23/day.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/10/22/122144.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-10-22T12:21:44-04:00",
+				"url": "https://jnicholson.blog/2017/10/22/122144.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/28/they-told-us-that-all.html",
+				"title": "",
+				"content_text": "They told us that all Spanish bartenders were gruff and all business. Wrong! This guy was great and …",
+				"date_published": "2017-09-28T16:54:15-04:00",
+				"url": "https://jnicholson.blog/2017/09/28/they-told-us-that-all.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/28/gotta-cure-that-jamn-twinningspain.html",
+				"title": "",
+				"content_text": "Gotta cure that jamÃ³n. #twinningspain2017",
+				"date_published": "2017-09-28T16:51:58-04:00",
+				"url": "https://jnicholson.blog/2017/09/28/gotta-cure-that-jamn-twinningspain.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/28/jamn-ibrico-y-queso-twinningspain.html",
+				"title": "",
+				"content_text": "JamÃ³n ibÃ©rico y queso! #twinningspain2017",
+				"date_published": "2017-09-28T16:51:13-04:00",
+				"url": "https://jnicholson.blog/2017/09/28/jamn-ibrico-y-queso-twinningspain.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/28/josh-and-some-sort-of.html",
+				"title": "",
+				"content_text": "Josh! \u0026hellip;and some sort of building important to the entire Spanish monarchy\u0026hellip; …",
+				"date_published": "2017-09-28T16:50:26-04:00",
+				"url": "https://jnicholson.blog/2017/09/28/josh-and-some-sort-of.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/28/twinningspain.html",
+				"title": "",
+				"content_text": "#twinningspain2017",
+				"date_published": "2017-09-28T16:49:21-04:00",
+				"url": "https://jnicholson.blog/2017/09/28/twinningspain.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/28/164854.html",
+				"title": "",
+				"content_text": "#twinningspain2017",
+				"date_published": "2017-09-28T16:48:54-04:00",
+				"url": "https://jnicholson.blog/2017/09/28/164854.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/27/the-bridge-into-toledo-twinningspain.html",
+				"title": "",
+				"content_text": "The bridge into Toledo #twinningspain2017 #canoneos80d",
+				"date_published": "2017-09-27T19:45:47-04:00",
+				"url": "https://jnicholson.blog/2017/09/27/the-bridge-into-toledo-twinningspain.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/27/toledo-train-station.html",
+				"title": "",
+				"content_text": "Toledo train station",
+				"date_published": "2017-09-27T19:44:52-04:00",
+				"url": "https://jnicholson.blog/2017/09/27/toledo-train-station.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/27/194353.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-27T19:43:53-04:00",
+				"url": "https://jnicholson.blog/2017/09/27/194353.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/27/194352.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-27T19:43:52-04:00",
+				"url": "https://jnicholson.blog/2017/09/27/194352.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/27/194246.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-27T19:42:46-04:00",
+				"url": "https://jnicholson.blog/2017/09/27/194246.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/27/194245.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-27T19:42:45-04:00",
+				"url": "https://jnicholson.blog/2017/09/27/194245.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/27/192320.html",
+				"title": "",
+				"content_text": "#twinningspain2017 #canoneos80d",
+				"date_published": "2017-09-27T19:23:20-04:00",
+				"url": "https://jnicholson.blog/2017/09/27/192320.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/27/twinningspain-canoneosd.html",
+				"title": "",
+				"content_text": "#twinningspain2017 #canoneos80d",
+				"date_published": "2017-09-27T19:22:13-04:00",
+				"url": "https://jnicholson.blog/2017/09/27/twinningspain-canoneosd.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/27/cathedral-of-toledo-twinningspain-canoneosd.html",
+				"title": "",
+				"content_text": "Cathedral of Toledo! #twinningspain2017 #canoneos80d",
+				"date_published": "2017-09-27T19:21:22-04:00",
+				"url": "https://jnicholson.blog/2017/09/27/cathedral-of-toledo-twinningspain-canoneosd.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/27/i-dont-actually-and-havent.html",
+				"title": "",
+				"content_text": "I donât actually (and havenât looked it up) know what Mazapan is, but it tastes like sugar …",
+				"date_published": "2017-09-27T19:04:00-04:00",
+				"url": "https://jnicholson.blog/2017/09/27/i-dont-actually-and-havent.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/27/190300.html",
+				"title": "",
+				"content_text": "#twinningspain2017",
+				"date_published": "2017-09-27T19:03:00-04:00",
+				"url": "https://jnicholson.blog/2017/09/27/190300.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/27/the-cathedral-of-toledo-twinningspain.html",
+				"title": "",
+				"content_text": "The Cathedral of Toledo! #twinningspain2017",
+				"date_published": "2017-09-27T19:02:36-04:00",
+				"url": "https://jnicholson.blog/2017/09/27/the-cathedral-of-toledo-twinningspain.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/27/twinningspain.html",
+				"title": "",
+				"content_text": "#twinningspain2017",
+				"date_published": "2017-09-27T10:25:32-04:00",
+				"url": "https://jnicholson.blog/2017/09/27/twinningspain.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/26/121016.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-26T12:10:16-04:00",
+				"url": "https://jnicholson.blog/2017/09/26/121016.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/26/121015.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-26T12:10:15-04:00",
+				"url": "https://jnicholson.blog/2017/09/26/121015.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/26/115433.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-26T11:54:33-04:00",
+				"url": "https://jnicholson.blog/2017/09/26/115433.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/26/115431.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-26T11:54:31-04:00",
+				"url": "https://jnicholson.blog/2017/09/26/115431.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/26/115429.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-26T11:54:29-04:00",
+				"url": "https://jnicholson.blog/2017/09/26/115429.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/26/calle-de-las-huertas-i.html",
+				"title": "",
+				"content_text": "Calle de las huertas, I think? #twinningspain2017",
+				"date_published": "2017-09-26T11:50:31-04:00",
+				"url": "https://jnicholson.blog/2017/09/26/calle-de-las-huertas-i.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/25/yo-quiero-taco-bell-twinningspain.html",
+				"title": "",
+				"content_text": "Yo quiero Taco Bell! #twinningspain2017",
+				"date_published": "2017-09-25T18:15:01-04:00",
+				"url": "https://jnicholson.blog/2017/09/25/yo-quiero-taco-bell-twinningspain.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/25/keepin-it-classy-spain-twinningspain.html",
+				"title": "",
+				"content_text": "Keepin it classy, Spain! #twinningspain2017",
+				"date_published": "2017-09-25T18:13:32-04:00",
+				"url": "https://jnicholson.blog/2017/09/25/keepin-it-classy-spain-twinningspain.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/25/yum-twinningspain.html",
+				"title": "",
+				"content_text": "Yum! #twinningspain2017",
+				"date_published": "2017-09-25T18:12:51-04:00",
+				"url": "https://jnicholson.blog/2017/09/25/yum-twinningspain.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/25/handles-shaped-for-your-hands.html",
+				"title": "",
+				"content_text": "Handles shaped for your hands! #twinningspain2017",
+				"date_published": "2017-09-25T12:39:56-04:00",
+				"url": "https://jnicholson.blog/2017/09/25/handles-shaped-for-your-hands.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/25/123854.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-25T12:38:54-04:00",
+				"url": "https://jnicholson.blog/2017/09/25/123854.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/25/123850.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-25T12:38:50-04:00",
+				"url": "https://jnicholson.blog/2017/09/25/123850.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/25/123848.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-25T12:38:48-04:00",
+				"url": "https://jnicholson.blog/2017/09/25/123848.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/25/123617.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-25T12:36:17-04:00",
+				"url": "https://jnicholson.blog/2017/09/25/123617.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/25/123610.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-25T12:36:10-04:00",
+				"url": "https://jnicholson.blog/2017/09/25/123610.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/25/123557.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-25T12:35:57-04:00",
+				"url": "https://jnicholson.blog/2017/09/25/123557.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/25/123338.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-25T12:33:38-04:00",
+				"url": "https://jnicholson.blog/2017/09/25/123338.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/25/123331.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-25T12:33:31-04:00",
+				"url": "https://jnicholson.blog/2017/09/25/123331.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/25/123317.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-25T12:33:17-04:00",
+				"url": "https://jnicholson.blog/2017/09/25/123317.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/25/123315.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-25T12:33:15-04:00",
+				"url": "https://jnicholson.blog/2017/09/25/123315.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/25/123312.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-25T12:33:12-04:00",
+				"url": "https://jnicholson.blog/2017/09/25/123312.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/25/123304.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-25T12:33:04-04:00",
+				"url": "https://jnicholson.blog/2017/09/25/123304.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/25/to-make-ourselves-feel-better.html",
+				"title": "",
+				"content_text": "To make ourselves feel better about the Sagrada Familia fiasco, we visited La Pedrera.",
+				"date_published": "2017-09-25T12:30:50-04:00",
+				"url": "https://jnicholson.blog/2017/09/25/to-make-ourselves-feel-better.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/25/122903.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-25T12:29:03-04:00",
+				"url": "https://jnicholson.blog/2017/09/25/122903.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/25/122819.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-25T12:28:19-04:00",
+				"url": "https://jnicholson.blog/2017/09/25/122819.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/25/122818.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-25T12:28:18-04:00",
+				"url": "https://jnicholson.blog/2017/09/25/122818.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/25/122817.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-25T12:28:17-04:00",
+				"url": "https://jnicholson.blog/2017/09/25/122817.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/25/122814.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-25T12:28:14-04:00",
+				"url": "https://jnicholson.blog/2017/09/25/122814.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/25/underestimated-how-difficult-tickets-would.html",
+				"title": "",
+				"content_text": "Underestimated how difficult tickets would be to get, but still super impressive from the …",
+				"date_published": "2017-09-25T12:25:07-04:00",
+				"url": "https://jnicholson.blog/2017/09/25/underestimated-how-difficult-tickets-would.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/24/left-or-right.html",
+				"title": "",
+				"content_text": "Left or right???",
+				"date_published": "2017-09-24T17:41:23-04:00",
+				"url": "https://jnicholson.blog/2017/09/24/left-or-right.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/24/josh-and-a-cathedral-twinningspain.html",
+				"title": "",
+				"content_text": "Josh! And a cathedral! #twinningspain2017",
+				"date_published": "2017-09-24T14:08:39-04:00",
+				"url": "https://jnicholson.blog/2017/09/24/josh-and-a-cathedral-twinningspain.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/24/four-corinthian-columns-from-the.html",
+				"title": "",
+				"content_text": "Four Corinthian columns from the Temple of Augustus. #twinningspain2017",
+				"date_published": "2017-09-24T14:06:40-04:00",
+				"url": "https://jnicholson.blog/2017/09/24/four-corinthian-columns-from-the.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/24/140247.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-24T14:02:47-04:00",
+				"url": "https://jnicholson.blog/2017/09/24/140247.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/24/140244.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-24T14:02:44-04:00",
+				"url": "https://jnicholson.blog/2017/09/24/140244.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/24/140216.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-24T14:02:16-04:00",
+				"url": "https://jnicholson.blog/2017/09/24/140216.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/24/140148.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-24T14:01:48-04:00",
+				"url": "https://jnicholson.blog/2017/09/24/140148.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/24/joshs-head-checking-out-a.html",
+				"title": "",
+				"content_text": "Joshâs head checking out a carrer he really liked. #twinningspain2017",
+				"date_published": "2017-09-24T13:52:33-04:00",
+				"url": "https://jnicholson.blog/2017/09/24/joshs-head-checking-out-a.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/24/135047.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-24T13:50:47-04:00",
+				"url": "https://jnicholson.blog/2017/09/24/135047.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/24/135029.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-24T13:50:29-04:00",
+				"url": "https://jnicholson.blog/2017/09/24/135029.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/24/desayunos-twinningspain.html",
+				"title": "",
+				"content_text": "Desayunos! #twinningspain2017",
+				"date_published": "2017-09-24T13:38:45-04:00",
+				"url": "https://jnicholson.blog/2017/09/24/desayunos-twinningspain.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/24/barcelona-cathedral-twinningspain.html",
+				"title": "",
+				"content_text": "Barcelona Cathedral #twinningspain2017",
+				"date_published": "2017-09-24T13:37:21-04:00",
+				"url": "https://jnicholson.blog/2017/09/24/barcelona-cathedral-twinningspain.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/24/twinningspain.html",
+				"title": "",
+				"content_text": "#twinningspain2017",
+				"date_published": "2017-09-24T13:36:23-04:00",
+				"url": "https://jnicholson.blog/2017/09/24/twinningspain.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/24/columbus-monument-twinningspain.html",
+				"title": "",
+				"content_text": "Columbus Monument #twinningspain2017",
+				"date_published": "2017-09-24T13:35:41-04:00",
+				"url": "https://jnicholson.blog/2017/09/24/columbus-monument-twinningspain.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/24/100201.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-24T10:02:01-04:00",
+				"url": "https://jnicholson.blog/2017/09/24/100201.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/24/100155.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-24T10:01:55-04:00",
+				"url": "https://jnicholson.blog/2017/09/24/100155.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/24/095510.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-24T09:55:10-04:00",
+				"url": "https://jnicholson.blog/2017/09/24/095510.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/24/095505.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-24T09:55:05-04:00",
+				"url": "https://jnicholson.blog/2017/09/24/095505.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/24/094541.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-24T09:45:41-04:00",
+				"url": "https://jnicholson.blog/2017/09/24/094541.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/24/094456.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-24T09:44:56-04:00",
+				"url": "https://jnicholson.blog/2017/09/24/094456.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/24/094222.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-24T09:42:22-04:00",
+				"url": "https://jnicholson.blog/2017/09/24/094222.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/24/094208.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-09-24T09:42:08-04:00",
+				"url": "https://jnicholson.blog/2017/09/24/094208.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/23/taking-the-high-speed-rail.html",
+				"title": "",
+				"content_text": "Taking the high speed rail! #twinningspain2017",
+				"date_published": "2017-09-23T08:02:45-04:00",
+				"url": "https://jnicholson.blog/2017/09/23/taking-the-high-speed-rail.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/09/23/twinningspain.html",
+				"title": "",
+				"content_text": "#twinningspain2017",
+				"date_published": "2017-09-23T08:02:01-04:00",
+				"url": "https://jnicholson.blog/2017/09/23/twinningspain.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/08/26/beer-to-be.html",
+				"title": "",
+				"content_text": "Beer to be!",
+				"date_published": "2017-08-26T12:53:48-04:00",
+				"url": "https://jnicholson.blog/2017/08/26/beer-to-be.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/08/19/sitting-under-a-hickory-in.html",
+				"title": "",
+				"content_text": "Sitting under a hickory in the late summer means getting pelted by leaves and bits of nuts from the …",
+				"date_published": "2017-08-19T11:11:06-04:00",
+				"url": "https://jnicholson.blog/2017/08/19/sitting-under-a-hickory-in.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/26/got-to-the-top-of.html",
+				"title": "",
+				"content_text": "Got to the top of the cone and spotted a second one in the distance!",
+				"date_published": "2017-05-26T19:16:31-04:00",
+				"url": "https://jnicholson.blog/2017/05/26/got-to-the-top-of.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/26/climbing-up-the-cinder-cone.html",
+				"title": "",
+				"content_text": "Climbing up the cinder cone of an extinct volcano",
+				"date_published": "2017-05-26T19:15:58-04:00",
+				"url": "https://jnicholson.blog/2017/05/26/climbing-up-the-cinder-cone.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/26/191428.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-26T19:14:28-04:00",
+				"url": "https://jnicholson.blog/2017/05/26/191428.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/26/climbing-up-a-huge-petrified.html",
+				"title": "",
+				"content_text": "Climbing up a huge petrified dune.",
+				"date_published": "2017-05-26T19:14:02-04:00",
+				"url": "https://jnicholson.blog/2017/05/26/climbing-up-a-huge-petrified.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/26/191316.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-26T19:13:16-04:00",
+				"url": "https://jnicholson.blog/2017/05/26/191316.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/26/disappearing.html",
+				"title": "",
+				"content_text": "Disappearing!",
+				"date_published": "2017-05-26T19:12:41-04:00",
+				"url": "https://jnicholson.blog/2017/05/26/disappearing.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/26/more-lava-tubes.html",
+				"title": "",
+				"content_text": "More lava tubes",
+				"date_published": "2017-05-26T19:10:33-04:00",
+				"url": "https://jnicholson.blog/2017/05/26/more-lava-tubes.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/26/lava-tubes.html",
+				"title": "",
+				"content_text": "Lava tubes!!!",
+				"date_published": "2017-05-26T19:09:12-04:00",
+				"url": "https://jnicholson.blog/2017/05/26/lava-tubes.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/26/we-found-a-lava-flow.html",
+				"title": "",
+				"content_text": "We found a lava flow!",
+				"date_published": "2017-05-26T19:08:17-04:00",
+				"url": "https://jnicholson.blog/2017/05/26/we-found-a-lava-flow.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/25/vacation-aint-over-yet.html",
+				"title": "",
+				"content_text": "Vacation ain\u0026rsquo;t over yet!",
+				"date_published": "2017-05-25T23:39:28-04:00",
+				"url": "https://jnicholson.blog/2017/05/25/vacation-aint-over-yet.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/24/thor-holding-thorsvery-small-hammer.html",
+				"title": "",
+				"content_text": "Thor holding Thor\u0026rsquo;s\u0026hellip;.very small hammer.",
+				"date_published": "2017-05-24T21:28:12-04:00",
+				"url": "https://jnicholson.blog/2017/05/24/thor-holding-thorsvery-small-hammer.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/24/211050.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-24T21:10:50-04:00",
+				"url": "https://jnicholson.blog/2017/05/24/211050.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/24/210947.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-24T21:09:47-04:00",
+				"url": "https://jnicholson.blog/2017/05/24/210947.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/24/210925.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-24T21:09:25-04:00",
+				"url": "https://jnicholson.blog/2017/05/24/210925.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/24/210832.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-24T21:08:32-04:00",
+				"url": "https://jnicholson.blog/2017/05/24/210832.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/24/210807.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-24T21:08:07-04:00",
+				"url": "https://jnicholson.blog/2017/05/24/210807.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/23/204558.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-23T20:45:58-04:00",
+				"url": "https://jnicholson.blog/2017/05/23/204558.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/23/204536.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-23T20:45:36-04:00",
+				"url": "https://jnicholson.blog/2017/05/23/204536.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/23/204512.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-23T20:45:12-04:00",
+				"url": "https://jnicholson.blog/2017/05/23/204512.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/23/204448.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-23T20:44:48-04:00",
+				"url": "https://jnicholson.blog/2017/05/23/204448.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/23/we-made-it.html",
+				"title": "",
+				"content_text": "We made it!",
+				"date_published": "2017-05-23T20:44:06-04:00",
+				"url": "https://jnicholson.blog/2017/05/23/we-made-it.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/23/where-i-came-from.html",
+				"title": "",
+				"content_text": "Where I came from\u0026hellip;",
+				"date_published": "2017-05-23T20:42:32-04:00",
+				"url": "https://jnicholson.blog/2017/05/23/where-i-came-from.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/23/where-im-going.html",
+				"title": "",
+				"content_text": "Where I\u0026rsquo;m going\u0026hellip;",
+				"date_published": "2017-05-23T20:41:48-04:00",
+				"url": "https://jnicholson.blog/2017/05/23/where-im-going.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/23/204027.html",
+				"title": "",
+				"content_text": "ð±",
+				"date_published": "2017-05-23T20:40:27-04:00",
+				"url": "https://jnicholson.blog/2017/05/23/204027.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/23/not-there-yet.html",
+				"title": "",
+				"content_text": "Not there yet!",
+				"date_published": "2017-05-23T20:39:52-04:00",
+				"url": "https://jnicholson.blog/2017/05/23/not-there-yet.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/23/203916.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-23T20:39:16-04:00",
+				"url": "https://jnicholson.blog/2017/05/23/203916.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/23/194803.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-23T19:48:03-04:00",
+				"url": "https://jnicholson.blog/2017/05/23/194803.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/22/good-ole-charle.html",
+				"title": "",
+				"content_text": "Good ole Charle",
+				"date_published": "2017-05-22T23:57:03-04:00",
+				"url": "https://jnicholson.blog/2017/05/22/good-ole-charle.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/22/more-scramblin-in-hidden-canyon.html",
+				"title": "",
+				"content_text": "More scramblin\u0026rsquo; in Hidden Canyon",
+				"date_published": "2017-05-22T23:56:03-04:00",
+				"url": "https://jnicholson.blog/2017/05/22/more-scramblin-in-hidden-canyon.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/22/scramblin-in-hidden-canyon.html",
+				"title": "",
+				"content_text": "Scramblin\u0026rsquo; in Hidden Canyon",
+				"date_published": "2017-05-22T23:55:06-04:00",
+				"url": "https://jnicholson.blog/2017/05/22/scramblin-in-hidden-canyon.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/22/235410.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-22T23:54:10-04:00",
+				"url": "https://jnicholson.blog/2017/05/22/235410.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/22/on-the-way-to-hidden.html",
+				"title": "",
+				"content_text": "On the way to hidden canyon.",
+				"date_published": "2017-05-22T23:53:32-04:00",
+				"url": "https://jnicholson.blog/2017/05/22/on-the-way-to-hidden.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/22/we-made-it.html",
+				"title": "",
+				"content_text": "We made it!",
+				"date_published": "2017-05-22T23:52:51-04:00",
+				"url": "https://jnicholson.blog/2017/05/22/we-made-it.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/22/the-view-from-observation-point.html",
+				"title": "",
+				"content_text": "The view from Observation Point!",
+				"date_published": "2017-05-22T23:52:20-04:00",
+				"url": "https://jnicholson.blog/2017/05/22/the-view-from-observation-point.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/22/235139.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-22T23:51:39-04:00",
+				"url": "https://jnicholson.blog/2017/05/22/235139.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/22/no-charlie-not-dave.html",
+				"title": "",
+				"content_text": "No, Charlie!! Not Dave!!",
+				"date_published": "2017-05-22T23:50:58-04:00",
+				"url": "https://jnicholson.blog/2017/05/22/no-charlie-not-dave.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/22/234932.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-22T23:49:32-04:00",
+				"url": "https://jnicholson.blog/2017/05/22/234932.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/22/cactus-flower.html",
+				"title": "",
+				"content_text": "Cactus flower!",
+				"date_published": "2017-05-22T23:49:04-04:00",
+				"url": "https://jnicholson.blog/2017/05/22/cactus-flower.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/22/234827.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-22T23:48:27-04:00",
+				"url": "https://jnicholson.blog/2017/05/22/234827.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/22/a-view-of-observation-point.html",
+				"title": "",
+				"content_text": "A view of Observation Point from far below. It\u0026rsquo;s a 2000 foot climb over the course of 4 miles.",
+				"date_published": "2017-05-22T23:47:26-04:00",
+				"url": "https://jnicholson.blog/2017/05/22/a-view-of-observation-point.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/22/234606.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-22T23:46:06-04:00",
+				"url": "https://jnicholson.blog/2017/05/22/234606.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/22/234526.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-22T23:45:26-04:00",
+				"url": "https://jnicholson.blog/2017/05/22/234526.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/21/180107.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-21T18:01:07-04:00",
+				"url": "https://jnicholson.blog/2017/05/21/180107.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/21/180039.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-21T18:00:39-04:00",
+				"url": "https://jnicholson.blog/2017/05/21/180039.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/21/180016.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-21T18:00:16-04:00",
+				"url": "https://jnicholson.blog/2017/05/21/180016.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/21/petroglyphsagain.html",
+				"title": "",
+				"content_text": "Petroglyphs\u0026ndash;again!",
+				"date_published": "2017-05-21T17:59:27-04:00",
+				"url": "https://jnicholson.blog/2017/05/21/petroglyphsagain.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/21/rough-translation-two-fat-square.html",
+				"title": "",
+				"content_text": "Rough translation: two fat square people were last seen chasing two skinny people through the …",
+				"date_published": "2017-05-21T17:58:21-04:00",
+				"url": "https://jnicholson.blog/2017/05/21/rough-translation-two-fat-square.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/21/petroglyphs.html",
+				"title": "",
+				"content_text": "Petroglyphs!",
+				"date_published": "2017-05-21T17:57:20-04:00",
+				"url": "https://jnicholson.blog/2017/05/21/petroglyphs.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/21/dont-tell-mom-i-climbed.html",
+				"title": "",
+				"content_text": "Don\u0026rsquo;t tell mom I climbed this.",
+				"date_published": "2017-05-21T17:56:35-04:00",
+				"url": "https://jnicholson.blog/2017/05/21/dont-tell-mom-i-climbed.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/21/175547.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-21T17:55:47-04:00",
+				"url": "https://jnicholson.blog/2017/05/21/175547.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/21/okay-i-promise-i-wont.html",
+				"title": "",
+				"content_text": "Okay, I promise I won\u0026rsquo;t wake it up.",
+				"date_published": "2017-05-21T17:55:20-04:00",
+				"url": "https://jnicholson.blog/2017/05/21/okay-i-promise-i-wont.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/21/175330.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-21T17:53:30-04:00",
+				"url": "https://jnicholson.blog/2017/05/21/175330.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/21/175247.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-21T17:52:47-04:00",
+				"url": "https://jnicholson.blog/2017/05/21/175247.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/21/175214.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-05-21T17:52:14-04:00",
+				"url": "https://jnicholson.blog/2017/05/21/175214.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/05/12/thisll-do-just-fine.html",
+				"title": "",
+				"content_text": "This\u0026rsquo;ll do just fine.",
+				"date_published": "2017-05-12T20:30:57-04:00",
+				"url": "https://jnicholson.blog/2017/05/12/thisll-do-just-fine.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/04/24/152239.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-04-24T15:22:39-04:00",
+				"url": "https://jnicholson.blog/2017/04/24/152239.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/04/24/151944.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-04-24T15:19:44-04:00",
+				"url": "https://jnicholson.blog/2017/04/24/151944.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/04/23/203853.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-04-23T20:38:53-04:00",
+				"url": "https://jnicholson.blog/2017/04/23/203853.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/04/23/203821.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-04-23T20:38:21-04:00",
+				"url": "https://jnicholson.blog/2017/04/23/203821.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/04/23/203805.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-04-23T20:38:05-04:00",
+				"url": "https://jnicholson.blog/2017/04/23/203805.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/04/22/203929.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-04-22T20:39:29-04:00",
+				"url": "https://jnicholson.blog/2017/04/22/203929.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/04/22/203917.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-04-22T20:39:17-04:00",
+				"url": "https://jnicholson.blog/2017/04/22/203917.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/04/22/203855.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-04-22T20:38:55-04:00",
+				"url": "https://jnicholson.blog/2017/04/22/203855.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/04/22/203832.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-04-22T20:38:32-04:00",
+				"url": "https://jnicholson.blog/2017/04/22/203832.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/04/22/203752.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-04-22T20:37:52-04:00",
+				"url": "https://jnicholson.blog/2017/04/22/203752.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/04/22/203734.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-04-22T20:37:34-04:00",
+				"url": "https://jnicholson.blog/2017/04/22/203734.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/04/22/203708.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-04-22T20:37:08-04:00",
+				"url": "https://jnicholson.blog/2017/04/22/203708.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/04/22/203643.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-04-22T20:36:43-04:00",
+				"url": "https://jnicholson.blog/2017/04/22/203643.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/04/21/195527.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-04-21T19:55:27-04:00",
+				"url": "https://jnicholson.blog/2017/04/21/195527.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/04/21/195511.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-04-21T19:55:11-04:00",
+				"url": "https://jnicholson.blog/2017/04/21/195511.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/04/21/195449.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-04-21T19:54:49-04:00",
+				"url": "https://jnicholson.blog/2017/04/21/195449.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/04/21/175156.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-04-21T17:51:56-04:00",
+				"url": "https://jnicholson.blog/2017/04/21/175156.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/04/15/cedar-apple-rust.html",
+				"title": "",
+				"content_text": "Cedar Apple Rust",
+				"date_published": "2017-04-15T17:26:22-04:00",
+				"url": "https://jnicholson.blog/2017/04/15/cedar-apple-rust.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/04/15/professor-nicholson-expounding-on-the.html",
+				"title": "",
+				"content_text": "Professor Nicholson expounding on the traits of Cedar Apple Rust.",
+				"date_published": "2017-04-15T17:24:26-04:00",
+				"url": "https://jnicholson.blog/2017/04/15/professor-nicholson-expounding-on-the.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/04/08/082206.html",
+				"title": "",
+				"content_text": "ð",
+				"date_published": "2017-04-08T08:22:06-04:00",
+				"url": "https://jnicholson.blog/2017/04/08/082206.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/03/11/104326.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-03-11T10:43:26-04:00",
+				"url": "https://jnicholson.blog/2017/03/11/104326.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/03/11/104152.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-03-11T10:41:52-04:00",
+				"url": "https://jnicholson.blog/2017/03/11/104152.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/02/28/biology-on-tap.html",
+				"title": "",
+				"content_text": "Biology on Tap!",
+				"date_published": "2017-02-28T21:01:44-04:00",
+				"url": "https://jnicholson.blog/2017/02/28/biology-on-tap.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2017/02/28/200702.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2017-02-28T20:07:02-04:00",
+				"url": "https://jnicholson.blog/2017/02/28/200702.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/11/13/200804.html",
+				"title": "",
+				"content_text": "#traversecity2016",
+				"date_published": "2016-11-13T20:08:04-04:00",
+				"url": "https://jnicholson.blog/2016/11/13/200804.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/11/13/200740.html",
+				"title": "",
+				"content_text": "#traversecity2016",
+				"date_published": "2016-11-13T20:07:40-04:00",
+				"url": "https://jnicholson.blog/2016/11/13/200740.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/11/13/200710.html",
+				"title": "",
+				"content_text": "#traversecity2016",
+				"date_published": "2016-11-13T20:07:10-04:00",
+				"url": "https://jnicholson.blog/2016/11/13/200710.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/11/13/traversecity.html",
+				"title": "",
+				"content_text": "#traversecity2016",
+				"date_published": "2016-11-13T20:05:55-04:00",
+				"url": "https://jnicholson.blog/2016/11/13/traversecity.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/11/13/200521.html",
+				"title": "",
+				"content_text": "#redrivergorge2016",
+				"date_published": "2016-11-13T20:05:21-04:00",
+				"url": "https://jnicholson.blog/2016/11/13/200521.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/11/13/200449.html",
+				"title": "",
+				"content_text": "#redrivergorge2016",
+				"date_published": "2016-11-13T20:04:49-04:00",
+				"url": "https://jnicholson.blog/2016/11/13/200449.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/11/13/200434.html",
+				"title": "",
+				"content_text": "#redrivergorge2016",
+				"date_published": "2016-11-13T20:04:34-04:00",
+				"url": "https://jnicholson.blog/2016/11/13/200434.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/11/13/200407.html",
+				"title": "",
+				"content_text": "#redrivergorge2016",
+				"date_published": "2016-11-13T20:04:07-04:00",
+				"url": "https://jnicholson.blog/2016/11/13/200407.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/11/13/200339.html",
+				"title": "",
+				"content_text": "#redrivergorge2016",
+				"date_published": "2016-11-13T20:03:39-04:00",
+				"url": "https://jnicholson.blog/2016/11/13/200339.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/11/13/200259.html",
+				"title": "",
+				"content_text": "#redrivergorge2016",
+				"date_published": "2016-11-13T20:02:59-04:00",
+				"url": "https://jnicholson.blog/2016/11/13/200259.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/11/13/200206.html",
+				"title": "",
+				"content_text": "#redrivergorge2016",
+				"date_published": "2016-11-13T20:02:06-04:00",
+				"url": "https://jnicholson.blog/2016/11/13/200206.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/11/13/200131.html",
+				"title": "",
+				"content_text": "#redrivergorge2016",
+				"date_published": "2016-11-13T20:01:31-04:00",
+				"url": "https://jnicholson.blog/2016/11/13/200131.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/11/13/200041.html",
+				"title": "",
+				"content_text": "#redrivergorge2016",
+				"date_published": "2016-11-13T20:00:41-04:00",
+				"url": "https://jnicholson.blog/2016/11/13/200041.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/11/13/redrivergorge.html",
+				"title": "",
+				"content_text": "#redrivergorge2016",
+				"date_published": "2016-11-13T19:59:52-04:00",
+				"url": "https://jnicholson.blog/2016/11/13/redrivergorge.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/10/09/173058.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2016-10-09T17:30:58-04:00",
+				"url": "https://jnicholson.blog/2016/10/09/173058.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/10/09/good-morning.html",
+				"title": "",
+				"content_text": "Good morning.",
+				"date_published": "2016-10-09T17:29:41-04:00",
+				"url": "https://jnicholson.blog/2016/10/09/good-morning.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/10/09/muffin-mix.html",
+				"title": "",
+				"content_text": "Muffin mix.",
+				"date_published": "2016-10-09T17:28:55-04:00",
+				"url": "https://jnicholson.blog/2016/10/09/muffin-mix.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/10/09/172803.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2016-10-09T17:28:03-04:00",
+				"url": "https://jnicholson.blog/2016/10/09/172803.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/10/08/153424.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2016-10-08T15:34:24-04:00",
+				"url": "https://jnicholson.blog/2016/10/08/153424.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/10/08/153332.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2016-10-08T15:33:32-04:00",
+				"url": "https://jnicholson.blog/2016/10/08/153332.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/10/08/153215.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2016-10-08T15:32:15-04:00",
+				"url": "https://jnicholson.blog/2016/10/08/153215.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/27/view-from-the-starbucks-on.html",
+				"title": "",
+				"content_text": "View from the Starbucks on the 40th floor.",
+				"date_published": "2016-09-27T13:33:53-04:00",
+				"url": "https://jnicholson.blog/2016/09/27/view-from-the-starbucks-on.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/27/disappointed-seattle.html",
+				"title": "",
+				"content_text": "Disappointed. #seattle2016",
+				"date_published": "2016-09-27T13:32:45-04:00",
+				"url": "https://jnicholson.blog/2016/09/27/disappointed-seattle.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/26/the-tide-rolls-in-seattle.html",
+				"title": "",
+				"content_text": "\u0026ldquo;The Tide Rolls In\u0026rdquo; #seattle2016",
+				"date_published": "2016-09-26T15:44:54-04:00",
+				"url": "https://jnicholson.blog/2016/09/26/the-tide-rolls-in-seattle.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/26/a-view-of-the-olympic.html",
+				"title": "",
+				"content_text": "A view of the Olympic Mountain Range. #seattle2016",
+				"date_published": "2016-09-26T15:43:55-04:00",
+				"url": "https://jnicholson.blog/2016/09/26/a-view-of-the-olympic.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/26/jellyfish-ii-seattle.html",
+				"title": "",
+				"content_text": "Jellyfish II #seattle2016",
+				"date_published": "2016-09-26T15:41:11-04:00",
+				"url": "https://jnicholson.blog/2016/09/26/jellyfish-ii-seattle.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/26/jelly-fish-jellyfish-seattle.html",
+				"title": "",
+				"content_text": "Jelly. Fish. Jellyfish. #seattle2016",
+				"date_published": "2016-09-26T15:40:08-04:00",
+				"url": "https://jnicholson.blog/2016/09/26/jelly-fish-jellyfish-seattle.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/25/235136.html",
+				"title": "",
+				"content_text": "#seattle2016",
+				"date_published": "2016-09-25T23:51:36-04:00",
+				"url": "https://jnicholson.blog/2016/09/25/235136.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/25/235010.html",
+				"title": "",
+				"content_text": "#seattle2016",
+				"date_published": "2016-09-25T23:50:10-04:00",
+				"url": "https://jnicholson.blog/2016/09/25/235010.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/25/234833.html",
+				"title": "",
+				"content_text": "#seattle2016",
+				"date_published": "2016-09-25T23:48:33-04:00",
+				"url": "https://jnicholson.blog/2016/09/25/234833.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/25/170001.html",
+				"title": "",
+				"content_text": "#seattle2016",
+				"date_published": "2016-09-25T17:00:01-04:00",
+				"url": "https://jnicholson.blog/2016/09/25/170001.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/25/165712.html",
+				"title": "",
+				"content_text": "#seattle2016",
+				"date_published": "2016-09-25T16:57:12-04:00",
+				"url": "https://jnicholson.blog/2016/09/25/165712.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/25/165610.html",
+				"title": "",
+				"content_text": "#seattle2016",
+				"date_published": "2016-09-25T16:56:10-04:00",
+				"url": "https://jnicholson.blog/2016/09/25/165610.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/25/seattle.html",
+				"title": "",
+				"content_text": "#seattle2016",
+				"date_published": "2016-09-25T16:54:20-04:00",
+				"url": "https://jnicholson.blog/2016/09/25/seattle.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/25/taking-the-ferry-to-the.html",
+				"title": "",
+				"content_text": "Taking the ferry to the San Juan Islands! #seattle2016",
+				"date_published": "2016-09-25T16:54:00-04:00",
+				"url": "https://jnicholson.blog/2016/09/25/taking-the-ferry-to-the.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/24/220358.html",
+				"title": "",
+				"content_text": "#seattle2016",
+				"date_published": "2016-09-24T22:03:58-04:00",
+				"url": "https://jnicholson.blog/2016/09/24/220358.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/24/trrrroooollllll-seattle.html",
+				"title": "",
+				"content_text": "Trrrroooollllll #seattle2016",
+				"date_published": "2016-09-24T22:03:15-04:00",
+				"url": "https://jnicholson.blog/2016/09/24/trrrroooollllll-seattle.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/24/170432.html",
+				"title": "",
+				"content_text": "#seattle2016",
+				"date_published": "2016-09-24T17:04:32-04:00",
+				"url": "https://jnicholson.blog/2016/09/24/170432.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/24/142004.html",
+				"title": "",
+				"content_text": "#seattle2016",
+				"date_published": "2016-09-24T14:20:04-04:00",
+				"url": "https://jnicholson.blog/2016/09/24/142004.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/24/141922.html",
+				"title": "",
+				"content_text": "#seattle2016",
+				"date_published": "2016-09-24T14:19:22-04:00",
+				"url": "https://jnicholson.blog/2016/09/24/141922.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/24/141816.html",
+				"title": "",
+				"content_text": "Mount Rainier National Park #seattle2016",
+				"date_published": "2016-09-24T14:18:16-04:00",
+				"url": "https://jnicholson.blog/2016/09/24/141816.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/24/141736.html",
+				"title": "",
+				"content_text": "Mount Rainier National Park #seattle2016",
+				"date_published": "2016-09-24T14:17:36-04:00",
+				"url": "https://jnicholson.blog/2016/09/24/141736.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/24/mount-rainier-national-park-seattle.html",
+				"title": "",
+				"content_text": "Mount Rainier National Park #seattle2016",
+				"date_published": "2016-09-24T14:16:49-04:00",
+				"url": "https://jnicholson.blog/2016/09/24/mount-rainier-national-park-seattle.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/24/141515.html",
+				"title": "",
+				"content_text": "#seattle2016",
+				"date_published": "2016-09-24T14:15:15-04:00",
+				"url": "https://jnicholson.blog/2016/09/24/141515.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/24/the-gum-wall-seattle.html",
+				"title": "",
+				"content_text": "The gum wall. #seattle2016",
+				"date_published": "2016-09-24T14:14:30-04:00",
+				"url": "https://jnicholson.blog/2016/09/24/the-gum-wall-seattle.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/24/seattle.html",
+				"title": "",
+				"content_text": "#seattle2016",
+				"date_published": "2016-09-24T14:13:38-04:00",
+				"url": "https://jnicholson.blog/2016/09/24/seattle.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/23/dinner-last-night-at-the.html",
+				"title": "",
+				"content_text": "Dinner last night at the fisherman\u0026rsquo;s terminal. #seattle2016",
+				"date_published": "2016-09-23T11:27:28-04:00",
+				"url": "https://jnicholson.blog/2016/09/23/dinner-last-night-at-the.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/09/23/thatsnocloud-seattle.html",
+				"title": "",
+				"content_text": "#thatsnocloud #seattle2016",
+				"date_published": "2016-09-23T11:26:45-04:00",
+				"url": "https://jnicholson.blog/2016/09/23/thatsnocloud-seattle.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/27/rip-old-friend-january-august.html",
+				"title": "",
+				"content_text": "RIP old friend. January 6, 2011 - August 27, 2016. ð",
+				"date_published": "2016-08-27T08:23:41-04:00",
+				"url": "https://jnicholson.blog/2016/08/27/rip-old-friend-january-august.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/21/123802.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2016-08-21T12:38:02-04:00",
+				"url": "https://jnicholson.blog/2016/08/21/123802.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/17/youwont-aftertheend.html",
+				"title": "",
+				"content_text": "#youwont2016 #aftertheend",
+				"date_published": "2016-08-17T00:11:22-04:00",
+				"url": "https://jnicholson.blog/2016/08/17/youwont-aftertheend.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/16/tarmacs-are-cool-youwont-theend.html",
+				"title": "",
+				"content_text": "Tarmacs are cool! #youwont2016 #theend",
+				"date_published": "2016-08-16T19:17:58-04:00",
+				"url": "https://jnicholson.blog/2016/08/16/tarmacs-are-cool-youwont-theend.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/16/visited-this-place-too-couldnt.html",
+				"title": "",
+				"content_text": "Visited this place too. Couldn\u0026rsquo;t bring it on the plane. #morningbeer #youwont2016",
+				"date_published": "2016-08-16T19:14:32-04:00",
+				"url": "https://jnicholson.blog/2016/08/16/visited-this-place-too-couldnt.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/16/191316.html",
+				"title": "",
+				"content_text": "#youwont2016",
+				"date_published": "2016-08-16T19:13:16-04:00",
+				"url": "https://jnicholson.blog/2016/08/16/191316.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/16/the-hostels-feisty-pet-toucan.html",
+				"title": "",
+				"content_text": "The hostel\u0026rsquo;s feisty pet toucan. #youwont2016",
+				"date_published": "2016-08-16T19:12:48-04:00",
+				"url": "https://jnicholson.blog/2016/08/16/the-hostels-feisty-pet-toucan.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/16/colombians-like-kites-youwont.html",
+				"title": "",
+				"content_text": "Colombians like kites. #youwont2016",
+				"date_published": "2016-08-16T19:12:02-04:00",
+				"url": "https://jnicholson.blog/2016/08/16/colombians-like-kites-youwont.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/16/yea-i-totally-visited-an.html",
+				"title": "",
+				"content_text": "Yea I totally visited an organic coffee plantation in the mountains. Nbd. #youwont2016",
+				"date_published": "2016-08-16T19:10:58-04:00",
+				"url": "https://jnicholson.blog/2016/08/16/yea-i-totally-visited-an.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/16/agreed-youwont.html",
+				"title": "",
+				"content_text": "Agreed. #youwont2016",
+				"date_published": "2016-08-16T19:09:58-04:00",
+				"url": "https://jnicholson.blog/2016/08/16/agreed-youwont.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/16/190908.html",
+				"title": "",
+				"content_text": "#youwont2016",
+				"date_published": "2016-08-16T19:09:08-04:00",
+				"url": "https://jnicholson.blog/2016/08/16/190908.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/16/youwont.html",
+				"title": "",
+				"content_text": "#youwont2016",
+				"date_published": "2016-08-16T19:06:52-04:00",
+				"url": "https://jnicholson.blog/2016/08/16/youwont.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/16/a-very-very-happy-marigold.html",
+				"title": "",
+				"content_text": "A very very happy marigold. #youwont2016",
+				"date_published": "2016-08-16T19:06:10-04:00",
+				"url": "https://jnicholson.blog/2016/08/16/a-very-very-happy-marigold.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/16/purecolombia-youwont.html",
+				"title": "",
+				"content_text": "#purecolombia #youwont2016",
+				"date_published": "2016-08-16T19:05:42-04:00",
+				"url": "https://jnicholson.blog/2016/08/16/purecolombia-youwont.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/16/some-familiar-looking-plants-out.html",
+				"title": "",
+				"content_text": "Some familiar looking plants out in the wild. #youwont2016",
+				"date_published": "2016-08-16T19:05:02-04:00",
+				"url": "https://jnicholson.blog/2016/08/16/some-familiar-looking-plants-out.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/16/minca-youwont.html",
+				"title": "",
+				"content_text": "Minca #youwont2016",
+				"date_published": "2016-08-16T19:04:32-04:00",
+				"url": "https://jnicholson.blog/2016/08/16/minca-youwont.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/15/youwont.html",
+				"title": "",
+				"content_text": "#youwont2016",
+				"date_published": "2016-08-15T15:36:44-04:00",
+				"url": "https://jnicholson.blog/2016/08/15/youwont.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/15/pescado-frito-youwont.html",
+				"title": "",
+				"content_text": "Pescado Frito #youwont2016",
+				"date_published": "2016-08-15T15:36:23-04:00",
+				"url": "https://jnicholson.blog/2016/08/15/pescado-frito-youwont.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/15/our-supremely-interesting-captain-youwont.html",
+				"title": "",
+				"content_text": "Our supremely interesting captain. #youwont2016",
+				"date_published": "2016-08-15T15:33:34-04:00",
+				"url": "https://jnicholson.blog/2016/08/15/our-supremely-interesting-captain-youwont.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/13/goodbye-for-now-cartagena-youwont.html",
+				"title": "",
+				"content_text": "Goodbye for now, Cartagena. #youwont2016",
+				"date_published": "2016-08-13T16:14:41-04:00",
+				"url": "https://jnicholson.blog/2016/08/13/goodbye-for-now-cartagena-youwont.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/13/santa-marta-youwont.html",
+				"title": "",
+				"content_text": "Santa Marta #youwont2016",
+				"date_published": "2016-08-13T16:13:48-04:00",
+				"url": "https://jnicholson.blog/2016/08/13/santa-marta-youwont.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/13/on-our-way-to-taganga.html",
+				"title": "",
+				"content_text": "On our way to Taganga this morning. #youwont2016",
+				"date_published": "2016-08-13T16:13:17-04:00",
+				"url": "https://jnicholson.blog/2016/08/13/on-our-way-to-taganga.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/12/la-playa-blanca-youwont.html",
+				"title": "",
+				"content_text": "La Playa Blanca #youwont2016",
+				"date_published": "2016-08-12T23:06:57-04:00",
+				"url": "https://jnicholson.blog/2016/08/12/la-playa-blanca-youwont.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/12/a-very-late-lunch-at.html",
+				"title": "",
+				"content_text": "A very late lunch at La Playa Blanca #youwont2016",
+				"date_published": "2016-08-12T23:00:58-04:00",
+				"url": "https://jnicholson.blog/2016/08/12/a-very-late-lunch-at.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/12/snorkeling-at-la-playa-blanca.html",
+				"title": "",
+				"content_text": "Snorkeling at La Playa Blanca #youwont2016",
+				"date_published": "2016-08-12T23:00:21-04:00",
+				"url": "https://jnicholson.blog/2016/08/12/snorkeling-at-la-playa-blanca.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/11/i-believe-this-was-a.html",
+				"title": "",
+				"content_text": "I believe this was a church in the Santo Domingo square. #youwont2016",
+				"date_published": "2016-08-11T20:41:01-04:00",
+				"url": "https://jnicholson.blog/2016/08/11/i-believe-this-was-a.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/11/204009.html",
+				"title": "",
+				"content_text": "#youwont2016",
+				"date_published": "2016-08-11T20:40:09-04:00",
+				"url": "https://jnicholson.blog/2016/08/11/204009.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/11/cartagenian-red-snapper-sweet-rice.html",
+				"title": "",
+				"content_text": "Cartagenian red snapper, sweet rice, plantains, and salad. #youwont2016",
+				"date_published": "2016-08-11T17:29:06-04:00",
+				"url": "https://jnicholson.blog/2016/08/11/cartagenian-red-snapper-sweet-rice.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/11/youwont.html",
+				"title": "",
+				"content_text": "#youwont2016",
+				"date_published": "2016-08-11T01:00:09-04:00",
+				"url": "https://jnicholson.blog/2016/08/11/youwont.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/10/121258.html",
+				"title": "",
+				"content_text": "#youwont2016",
+				"date_published": "2016-08-10T12:12:58-04:00",
+				"url": "https://jnicholson.blog/2016/08/10/121258.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/10/youwont.html",
+				"title": "",
+				"content_text": "#youwont2016",
+				"date_published": "2016-08-10T12:12:12-04:00",
+				"url": "https://jnicholson.blog/2016/08/10/youwont.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/10/121055.html",
+				"title": "",
+				"content_text": "#youwont2016",
+				"date_published": "2016-08-10T12:10:55-04:00",
+				"url": "https://jnicholson.blog/2016/08/10/121055.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/10/121024.html",
+				"title": "",
+				"content_text": "#youwont2016",
+				"date_published": "2016-08-10T12:10:24-04:00",
+				"url": "https://jnicholson.blog/2016/08/10/121024.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/10/cafe-tinto-youwont.html",
+				"title": "",
+				"content_text": "Cafe\u0026rsquo; tinto #youwont2016",
+				"date_published": "2016-08-10T12:09:53-04:00",
+				"url": "https://jnicholson.blog/2016/08/10/cafe-tinto-youwont.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/09/231216.html",
+				"title": "",
+				"content_text": "#youwont2016",
+				"date_published": "2016-08-09T23:12:16-04:00",
+				"url": "https://jnicholson.blog/2016/08/09/231216.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/09/185833.html",
+				"title": "",
+				"content_text": "#youwont2016",
+				"date_published": "2016-08-09T18:58:33-04:00",
+				"url": "https://jnicholson.blog/2016/08/09/185833.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/09/185810.html",
+				"title": "",
+				"content_text": "#youwont2016",
+				"date_published": "2016-08-09T18:58:10-04:00",
+				"url": "https://jnicholson.blog/2016/08/09/185810.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/09/youwont-priorities.html",
+				"title": "",
+				"content_text": "#youwont2016 #priorities",
+				"date_published": "2016-08-09T18:19:50-04:00",
+				"url": "https://jnicholson.blog/2016/08/09/youwont-priorities.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/08/09/youwont.html",
+				"title": "",
+				"content_text": "#youwont2016",
+				"date_published": "2016-08-09T17:48:40-04:00",
+				"url": "https://jnicholson.blog/2016/08/09/youwont.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/06/04/discin.html",
+				"title": "",
+				"content_text": "Discin'",
+				"date_published": "2016-06-04T11:34:43-04:00",
+				"url": "https://jnicholson.blog/2016/06/04/discin.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/06/02/202238.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2016-06-02T20:22:38-04:00",
+				"url": "https://jnicholson.blog/2016/06/02/202238.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/05/14/doug-mains-and-the-city.html",
+				"title": "",
+				"content_text": "Doug Mains and the City Folk",
+				"date_published": "2016-05-14T21:50:10-04:00",
+				"url": "https://jnicholson.blog/2016/05/14/doug-mains-and-the-city.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/04/15/first-disc-golf-of-the.html",
+				"title": "",
+				"content_text": "First disc golf of the year.",
+				"date_published": "2016-04-15T18:05:24-04:00",
+				"url": "https://jnicholson.blog/2016/04/15/first-disc-golf-of-the.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/03/24/153103.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2016-03-24T15:31:03-04:00",
+				"url": "https://jnicholson.blog/2016/03/24/153103.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/03/24/125405.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2016-03-24T12:54:05-04:00",
+				"url": "https://jnicholson.blog/2016/03/24/125405.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/03/22/florida-onlyfilterwasmypolarizedsunglasses.html",
+				"title": "",
+				"content_text": "#florida #onlyfilterwasmypolarizedsunglasses",
+				"date_published": "2016-03-22T09:58:24-04:00",
+				"url": "https://jnicholson.blog/2016/03/22/florida-onlyfilterwasmypolarizedsunglasses.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/03/13/122135.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2016-03-13T12:21:35-04:00",
+				"url": "https://jnicholson.blog/2016/03/13/122135.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/03/13/122113.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2016-03-13T12:21:13-04:00",
+				"url": "https://jnicholson.blog/2016/03/13/122113.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/03/13/121929.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2016-03-13T12:19:29-04:00",
+				"url": "https://jnicholson.blog/2016/03/13/121929.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/03/12/171939.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2016-03-12T17:19:39-04:00",
+				"url": "https://jnicholson.blog/2016/03/12/171939.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/03/12/171505.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2016-03-12T17:15:05-04:00",
+				"url": "https://jnicholson.blog/2016/03/12/171505.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/03/12/171410.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2016-03-12T17:14:10-04:00",
+				"url": "https://jnicholson.blog/2016/03/12/171410.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/03/12/171305.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2016-03-12T17:13:05-04:00",
+				"url": "https://jnicholson.blog/2016/03/12/171305.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/02/28/mug-club-member.html",
+				"title": "",
+				"content_text": "Mug Club Member.",
+				"date_published": "2016-02-28T18:58:55-04:00",
+				"url": "https://jnicholson.blog/2016/02/28/mug-club-member.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/02/25/073142.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2016-02-25T07:31:42-04:00",
+				"url": "https://jnicholson.blog/2016/02/25/073142.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/01/30/for-my-next-trick-i.html",
+				"title": "",
+				"content_text": "For my next trick, I will walk on top of the snow.",
+				"date_published": "2016-01-30T18:20:51-04:00",
+				"url": "https://jnicholson.blog/2016/01/30/for-my-next-trick-i.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/01/30/113821.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2016-01-30T11:38:21-04:00",
+				"url": "https://jnicholson.blog/2016/01/30/113821.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/01/29/the-great-frozen-north.html",
+				"title": "",
+				"content_text": "The great frozen north.",
+				"date_published": "2016-01-29T18:27:01-04:00",
+				"url": "https://jnicholson.blog/2016/01/29/the-great-frozen-north.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/01/25/manistee-river-october.html",
+				"title": "",
+				"content_text": "Manistee River, October 2014",
+				"date_published": "2016-01-25T14:37:19-04:00",
+				"url": "https://jnicholson.blog/2016/01/25/manistee-river-october.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/01/24/170959.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2016-01-24T17:09:59-04:00",
+				"url": "https://jnicholson.blog/2016/01/24/170959.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/01/23/throwback-to-may-on-the.html",
+				"title": "",
+				"content_text": "Throwback to May 2011 on the island of Patmos.",
+				"date_published": "2016-01-23T10:24:36-04:00",
+				"url": "https://jnicholson.blog/2016/01/23/throwback-to-may-on-the.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/01/22/not-yosemite-this-time.html",
+				"title": "",
+				"content_text": "Not Yosemite this time.",
+				"date_published": "2016-01-22T09:24:25-04:00",
+				"url": "https://jnicholson.blog/2016/01/22/not-yosemite-this-time.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/01/21/october-in-yosemite-this-was.html",
+				"title": "",
+				"content_text": "October in Yosemite. This was towards the end of a very long first day.",
+				"date_published": "2016-01-21T08:43:18-04:00",
+				"url": "https://jnicholson.blog/2016/01/21/october-in-yosemite-this-was.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/01/20/another-from-this-fall-we.html",
+				"title": "",
+				"content_text": "Another from this fall. We climbed up that. Hardest day of the entire trip for me.",
+				"date_published": "2016-01-20T09:12:48-04:00",
+				"url": "https://jnicholson.blog/2016/01/20/another-from-this-fall-we.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/01/19/yosemite-trip-from-this-october.html",
+				"title": "",
+				"content_text": "Yosemite trip from this October.",
+				"date_published": "2016-01-19T09:42:31-04:00",
+				"url": "https://jnicholson.blog/2016/01/19/yosemite-trip-from-this-october.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/01/18/101633.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2016-01-18T10:16:33-04:00",
+				"url": "https://jnicholson.blog/2016/01/18/101633.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/01/17/185004.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2016-01-17T18:50:04-04:00",
+				"url": "https://jnicholson.blog/2016/01/17/185004.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2016/01/11/curried-chicken-soup.html",
+				"title": "",
+				"content_text": "Curried Chicken Soup",
+				"date_published": "2016-01-11T20:30:30-04:00",
+				"url": "https://jnicholson.blog/2016/01/11/curried-chicken-soup.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2015/10/25/igerslansing.html",
+				"title": "",
+				"content_text": "#igerslansing",
+				"date_published": "2015-10-25T11:51:44-04:00",
+				"url": "https://jnicholson.blog/2015/10/25/igerslansing.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2015/10/03/good-morning.html",
+				"title": "",
+				"content_text": "Good morning.",
+				"date_published": "2015-10-03T11:38:25-04:00",
+				"url": "https://jnicholson.blog/2015/10/03/good-morning.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2015/09/25/195646.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2015-09-25T19:56:46-04:00",
+				"url": "https://jnicholson.blog/2015/09/25/195646.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2014/09/22/193540.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2014-09-22T19:35:40-04:00",
+				"url": "https://jnicholson.blog/2014/09/22/193540.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2014/07/06/that-counts-right.html",
+				"title": "",
+				"content_text": "That counts, right?",
+				"date_published": "2014-07-06T11:18:53-04:00",
+				"url": "https://jnicholson.blog/2014/07/06/that-counts-right.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2014/05/04/210757.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2014-05-04T21:07:57-04:00",
+				"url": "https://jnicholson.blog/2014/05/04/210757.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2014/05/04/100249.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2014-05-04T10:02:49-04:00",
+				"url": "https://jnicholson.blog/2014/05/04/100249.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2014/04/29/found-this-baby-snapping-turtle.html",
+				"title": "",
+				"content_text": "Found this baby snapping turtle while out on a run.",
+				"date_published": "2014-04-29T19:41:04-04:00",
+				"url": "https://jnicholson.blog/2014/04/29/found-this-baby-snapping-turtle.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2014/04/19/neat-neature-salamonie.html",
+				"title": "",
+				"content_text": "Neat! #neature #salamonie",
+				"date_published": "2014-04-19T17:09:26-04:00",
+				"url": "https://jnicholson.blog/2014/04/19/neat-neature-salamonie.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2014/04/11/065211.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2014-04-11T06:52:11-04:00",
+				"url": "https://jnicholson.blog/2014/04/11/065211.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2014/04/08/worth-walking-in-the-rain.html",
+				"title": "",
+				"content_text": "Worth walking in the rain for.",
+				"date_published": "2014-04-08T19:59:17-04:00",
+				"url": "https://jnicholson.blog/2014/04/08/worth-walking-in-the-rain.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2014/04/06/211613.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2014-04-06T21:16:13-04:00",
+				"url": "https://jnicholson.blog/2014/04/06/211613.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2014/04/06/tombstone-openingday.html",
+				"title": "",
+				"content_text": "Tombstone! #openingday2014",
+				"date_published": "2014-04-06T14:14:02-04:00",
+				"url": "https://jnicholson.blog/2014/04/06/tombstone-openingday.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2013/12/27/seems-a-bit-presumptuous.html",
+				"title": "",
+				"content_text": "Seems a bit presumptuous\u0026hellip;",
+				"date_published": "2013-12-27T13:16:42-04:00",
+				"url": "https://jnicholson.blog/2013/12/27/seems-a-bit-presumptuous.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2012/04/17/every-morning-is-a-coffee.html",
+				"title": "",
+				"content_text": "Every morning is a coffee morning!",
+				"date_published": "2012-04-17T08:37:50-04:00",
+				"url": "https://jnicholson.blog/2012/04/17/every-morning-is-a-coffee.html"
+			},
+			{
+				"id": "https://jnicholson.blog/2012/04/05/195902.html",
+				"title": "",
+				"content_text": " ",
+				"date_published": "2012-04-05T19:59:02-04:00",
+				"url": "https://jnicholson.blog/2012/04/05/195902.html"
 			}
 	]
 }
