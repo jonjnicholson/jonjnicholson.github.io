@@ -7,6 +7,24 @@
 	"items": [
 		
 			{
+				"id": "http://jnicholson.micro.blog/2025/05/14/finished-reading-the-dungeon-anarchists.html",
+				
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9780593820285\">The Dungeon Anarchist&rsquo;s Cookbook</a> by Matt Dinniman 📚</p>\n<p>Wow&hellip; just wow. Favorite one of the series so far. Just when I thought the craziest thing in the book had happened, something even wilder would happen. Already picked up the next one. Jeff Hays is an incredible voice actor.</p>\n",
+				"content_text": "Finished reading: [The Dungeon Anarchist's Cookbook](https://micro.blog/books/9780593820285) by Matt Dinniman 📚\n\nWow... just wow. Favorite one of the series so far. Just when I thought the craziest thing in the book had happened, something even wilder would happen. Already picked up the next one. Jeff Hays is an incredible voice actor.\n",
+				"date_published": "2025-05-14T21:50:32-04:00",
+				"url": "https://jnicholson.blog/2025/05/14/finished-reading-the-dungeon-anarchists.html",
+				"tags": ["Microposts","Reading"]
+			},
+			{
+				"id": "http://jnicholson.micro.blog/2025/05/13/enjoyed-hearing-manton-speak-at.html",
+				
+				"content_html": "<p>Enjoyed hearing <a href=\"https://micro.blog/manton\">@manton</a> speak at Austin EFF about the Fediverse and running micro.blog. Happy to hear that he&rsquo;s enjoying running it himself and making decisions in the best interest of users. <a href=\"https://www.youtube.com/watch?v=mQ8dNGTS3JU\">www.youtube.com/watch</a></p>\n",
+				"content_text": "Enjoyed hearing [@manton](https://micro.blog/manton) speak at Austin EFF about the Fediverse and running micro.blog. Happy to hear that he's enjoying running it himself and making decisions in the best interest of users. [www.youtube.com/watch](https://www.youtube.com/watch?v=mQ8dNGTS3JU)\n",
+				"date_published": "2025-05-13T22:35:15-04:00",
+				"url": "https://jnicholson.blog/2025/05/13/enjoyed-hearing-manton-speak-at.html",
+				"tags": ["Microposts"]
+			},
+			{
 				"id": "http://jnicholson.micro.blog/2025/05/08/currently-reading-the-wall-by.html",
 				
 				"content_html": "<p>Currently reading: <a href=\"https://micro.blog/books/9780811231954\">The Wall</a> by Marlen Haushofer 📚</p>\n<p>I picked it up after seeing it on Susan Rigetti&rsquo;s <a href=\"https://www.susanrigetti.com/thoughts/my-favorite-books-of-2024\">favorite books of 2024</a>. I read it for 40 minutes straight last night, and I expect I&rsquo;ll finish it soon enough. So far it&rsquo;s unlike anything I can remember reading. So mysterious and haunting.</p>\n",
@@ -19,7 +37,7 @@
 				"id": "http://jnicholson.micro.blog/2025/04/26/golden-hour-shadows.html",
 				
 				"content_html": "<p>Golden hour shadows 📸</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Golden hour shadows 📸\n\n<img src=\"https://cdn.uploads.micro.blog/217008/2025/09b3a6140e.jpg\" width=\"450\" height=\"600\" alt=\"Soft shadows of plants are cast on a yellow wall and a wooden door.\">\n",
+				"content_text": "Golden hour shadows 📸\n\n<img src=\"uploads/2025/09b3a6140e.jpg\" width=\"450\" height=\"600\" alt=\"Soft shadows of plants are cast on a yellow wall and a wooden door.\">\n",
 				"date_published": "2025-04-26T23:08:46-04:00",
 				"url": "https://jnicholson.blog/2025/04/26/golden-hour-shadows.html",
 				"tags": ["Microposts"]
@@ -73,7 +91,7 @@
 				"id": "http://jnicholson.micro.blog/2025/04/05/we-have-a-bird-deer.html",
 				
 				"content_html": "<p>We have a bird, deer, and raccoon feeder (not necessarily in that order)</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "We have a bird, deer, and raccoon feeder (not necessarily in that order) \n\n<img src=\"https://jnicholson.micro.blog/uploads/2025/img-5515.jpeg\" alt=\"a white tail deer eating out of a bird feeder\" title=\"IMG_5515.jpeg\" border=\"0\" width=\"450\" height=\"600\" />\n\n",
+				"content_text": "We have a bird, deer, and raccoon feeder (not necessarily in that order) \n\n<img src=\"uploads/2025/img-5515.jpeg\" alt=\"a white tail deer eating out of a bird feeder\" title=\"IMG_5515.jpeg\" border=\"0\" width=\"450\" height=\"600\" />\n\n",
 				"date_published": "2025-04-05T17:20:00-04:00",
 				"url": "https://jnicholson.blog/2025/04/05/we-have-a-bird-deer.html",
 				"tags": ["Microposts"]
@@ -91,7 +109,7 @@
 				"id": "http://jnicholson.micro.blog/2025/04/01/brown-pelican-looking-for-some.html",
 				
 				"content_html": "<p>Brown Pelican looking for some food</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Brown Pelican looking for some food\n\n<img src=\"https://jnicholson.micro.blog/uploads/2025/dsc06273.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"content_text": "Brown Pelican looking for some food\n\n<img src=\"uploads/2025/dsc06273.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
 				"date_published": "2025-04-01T19:04:18-04:00",
 				"url": "https://jnicholson.blog/2025/04/01/brown-pelican-looking-for-some.html",
 				"tags": ["Microposts"]
@@ -100,7 +118,7 @@
 				"id": "http://jnicholson.micro.blog/2024/11/01/165151.html",
 				
 				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "<img src=\"https://cdn.uploads.micro.blog/217008/2025/9cff0a7371.jpg\" width=\"600\" height=\"450\" alt=\"\">\n",
+				"content_text": "<img src=\"uploads/2025/9cff0a7371.jpg\" width=\"600\" height=\"450\" alt=\"\">\n",
 				"date_published": "2024-11-01T16:51:51-04:00",
 				"url": "https://jnicholson.blog/2024/11/01/165151.html",
 				"tags": ["Microposts"]
@@ -109,7 +127,7 @@
 				"id": "http://jnicholson.micro.blog/2024/07/21/114926.html",
 				
 				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "<img src=\"https://cdn.uploads.micro.blog/217008/2025/e41178f169.jpg\" width=\"600\" height=\"450\" alt=\"\">\n",
+				"content_text": "<img src=\"uploads/2025/e41178f169.jpg\" width=\"600\" height=\"450\" alt=\"\">\n",
 				"date_published": "2024-07-21T11:49:26-04:00",
 				"url": "https://jnicholson.blog/2024/07/21/114926.html",
 				"tags": ["Microposts"]
@@ -118,7 +136,7 @@
 				"id": "http://jnicholson.micro.blog/2024/03/26/172746.html",
 				
 				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "<img src=\"https://cdn.uploads.micro.blog/217008/2025/4df415d414.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"content_text": "<img src=\"uploads/2025/4df415d414.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
 				"date_published": "2024-03-26T17:27:46-04:00",
 				"url": "https://jnicholson.blog/2024/03/26/172746.html",
 				"tags": ["Microposts"]
@@ -127,7 +145,7 @@
 				"id": "http://jnicholson.micro.blog/2024/03/20/215107.html",
 				
 				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "<img src=\"https://cdn.uploads.micro.blog/217008/2025/bbfec917e6.jpg\" width=\"400\" height=\"600\" alt=\"\">\n",
+				"content_text": "<img src=\"uploads/2025/bbfec917e6.jpg\" width=\"400\" height=\"600\" alt=\"\">\n",
 				"date_published": "2024-03-20T21:51:07-04:00",
 				"url": "https://jnicholson.blog/2024/03/20/215107.html",
 				"tags": ["Microposts"]
@@ -136,7 +154,7 @@
 				"id": "http://jnicholson.micro.blog/2023/09/15/220521.html",
 				
 				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "<img src=\"https://cdn.uploads.micro.blog/217008/2025/6d8836ee3e.jpg\" width=\"600\" height=\"450\" alt=\"\">\n",
+				"content_text": "<img src=\"uploads/2025/6d8836ee3e.jpg\" width=\"600\" height=\"450\" alt=\"\">\n",
 				"date_published": "2023-09-15T22:05:21-04:00",
 				"url": "https://jnicholson.blog/2023/09/15/220521.html",
 				"tags": ["Microposts"]
@@ -154,7 +172,7 @@
 				"id": "http://jnicholson.micro.blog/2023/06/10/154847.html",
 				
 				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "<img src=\"https://cdn.uploads.micro.blog/217008/2025/3f3f2fccef.jpg\" width=\"460\" height=\"600\" alt=\"\">\n",
+				"content_text": "<img src=\"uploads/2025/3f3f2fccef.jpg\" width=\"460\" height=\"600\" alt=\"\">\n",
 				"date_published": "2023-06-10T15:48:47-04:00",
 				"url": "https://jnicholson.blog/2023/06/10/154847.html",
 				"tags": ["Microposts"]
@@ -163,9 +181,18 @@
 				"id": "http://jnicholson.micro.blog/2023/06/05/234558.html",
 				
 				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "<img src=\"https://cdn.uploads.micro.blog/217008/2025/525f4ec150.jpg\" width=\"400\" height=\"600\" alt=\"\">\n",
+				"content_text": "<img src=\"uploads/2025/525f4ec150.jpg\" width=\"400\" height=\"600\" alt=\"\">\n",
 				"date_published": "2023-06-05T23:45:58-04:00",
 				"url": "https://jnicholson.blog/2023/06/05/234558.html",
+				"tags": ["Microposts"]
+			},
+			{
+				"id": "http://jnicholson.micro.blog/2023/05/22/194827.html",
+				
+				"content_html": "<!-- raw HTML omitted -->\n",
+				"content_text": "<img src=\"uploads/2025/2a40be1c93.jpg\" width=\"400\" height=\"600\" alt=\"\">\n",
+				"date_published": "2023-05-22T19:48:27-04:00",
+				"url": "https://jnicholson.blog/2023/05/22/194827.html",
 				"tags": ["Microposts"]
 			},
 			{
